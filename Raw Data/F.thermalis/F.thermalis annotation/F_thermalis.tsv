@@ -1,0 +1,497 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+HNLBOBEM_00001	CDS	1506	mltF	4.2.2.-		Membrane-bound lytic murein transglycosylase F
+HNLBOBEM_00002	CDS	774	glnQ			Glutamine transport ATP-binding protein GlnQ
+HNLBOBEM_00003	CDS	246				hypothetical protein
+HNLBOBEM_00004	CDS	270				hypothetical protein
+HNLBOBEM_00005	CDS	471		3.6.1.25	COG2954	Inorganic triphosphatase
+HNLBOBEM_00006	CDS	1293				hypothetical protein
+HNLBOBEM_00007	CDS	219				hypothetical protein
+HNLBOBEM_00008	CDS	774				hypothetical protein
+HNLBOBEM_00009	CDS	333				hypothetical protein
+HNLBOBEM_00010	CDS	1263				hypothetical protein
+HNLBOBEM_00011	CDS	195				hypothetical protein
+HNLBOBEM_00012	CDS	3567	mfd	3.6.4.-		Transcription-repair-coupling factor
+HNLBOBEM_00013	CDS	702				hypothetical protein
+HNLBOBEM_00014	CDS	312				hypothetical protein
+HNLBOBEM_00015	CDS	969				hypothetical protein
+HNLBOBEM_00016	CDS	996				hypothetical protein
+HNLBOBEM_00017	CDS	1218				hypothetical protein
+HNLBOBEM_00018	CDS	150				hypothetical protein
+HNLBOBEM_00019	CDS	948		1.-.-.-	COG0667	putative oxidoreductase
+HNLBOBEM_00020	CDS	666				hypothetical protein
+HNLBOBEM_00021	CDS	2022				hypothetical protein
+HNLBOBEM_00022	CDS	906	hslO			33 kDa chaperonin
+HNLBOBEM_00023	CDS	381				hypothetical protein
+HNLBOBEM_00024	CDS	1215	hhoA			Putative serine protease HhoA
+HNLBOBEM_00025	CDS	360			COG1662	IS1 family transposase ISNpu9
+HNLBOBEM_00026	CDS	402				hypothetical protein
+HNLBOBEM_00027	CDS	1509	crtN	1.3.8.2		4,4'-diapophytoene desaturase (4,4'-diapolycopene-forming)
+HNLBOBEM_00028	CDS	1281		3.4.24.-	COG0612	putative zinc protease
+HNLBOBEM_00029	CDS	867		2.7.1.-		putative ketoamine kinase
+HNLBOBEM_00030	CDS	147				hypothetical protein
+HNLBOBEM_00031	CDS	480	psaF			Photosystem I reaction center subunit III
+HNLBOBEM_00032	CDS	144				hypothetical protein
+HNLBOBEM_00033	CDS	207	psbH			Photosystem II reaction center protein H
+HNLBOBEM_00034	CDS	1533	psbB			Photosystem II CP47 reaction center protein
+HNLBOBEM_00035	CDS	1425	psbC			Photosystem II CP43 reaction center protein
+HNLBOBEM_00036	CDS	1062	psbD1	1.10.3.9		Photosystem II D2 protein
+HNLBOBEM_00037	CDS	522	apcD_1			Allophycocyanin subunit alpha-B
+HNLBOBEM_00038	CDS	2259	apcE	4.-.-.-		Phycobiliprotein ApcE
+HNLBOBEM_00039	CDS	480	apcD_2			Allophycocyanin subunit alpha-B
+HNLBOBEM_00040	CDS	486	apcB			Allophycocyanin beta chain
+HNLBOBEM_00041	CDS	477	apcD_3			Allophycocyanin subunit alpha-B
+HNLBOBEM_00042	CDS	1086	psbA1	1.10.3.9		Photosystem II protein D1 1
+HNLBOBEM_00043	CDS	1131	chlF	1.-.-.-		Light-dependent chlorophyll f synthase
+HNLBOBEM_00044	CDS	1164	rssB			Regulator of RpoS
+HNLBOBEM_00045	CDS	2649	sasA_1	2.7.-.-		Adaptive-response sensory-kinase SasA
+HNLBOBEM_00046	CDS	381	phoP_1		COG0745	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP
+HNLBOBEM_00047	CDS	2367	psaA	1.97.1.12		Photosystem I P700 chlorophyll a apoprotein A1
+HNLBOBEM_00048	CDS	2226	psaB	1.97.1.12		Photosystem I P700 chlorophyll a apoprotein A2
+HNLBOBEM_00049	CDS	525	psaL			Photosystem I reaction center subunit XI
+HNLBOBEM_00050	CDS	204				hypothetical protein
+HNLBOBEM_00051	CDS	3657	nifJ	1.2.7.-	COG0674	Pyruvate-flavodoxin oxidoreductase
+HNLBOBEM_00052	CDS	663	petB		COG1290	Cytochrome b6
+HNLBOBEM_00053	CDS	1923	nhaP2			K(+)/H(+) antiporter NhaP2
+HNLBOBEM_00054	tRNA	73				tRNA-Glu(ttc)
+HNLBOBEM_00055	CDS	564				hypothetical protein
+HNLBOBEM_00056	CDS	2031	sasA_2	2.7.-.-		Adaptive-response sensory-kinase SasA
+HNLBOBEM_00057	CDS	336				hypothetical protein
+HNLBOBEM_00058	CDS	519				hypothetical protein
+HNLBOBEM_00059	CDS	390				hypothetical protein
+HNLBOBEM_00060	CDS	183				hypothetical protein
+HNLBOBEM_00061	CDS	426				hypothetical protein
+HNLBOBEM_00062	CDS	537	mrgA		COG0783	Metalloregulation DNA-binding stress protein
+HNLBOBEM_00063	CDS	768				hypothetical protein
+HNLBOBEM_00064	CDS	183				hypothetical protein
+HNLBOBEM_00065	CDS	276				hypothetical protein
+HNLBOBEM_00066	CDS	720	liaR		COG2197	Transcriptional regulatory protein LiaR
+HNLBOBEM_00067	CDS	432	rcp1_1			Response regulator rcp1
+HNLBOBEM_00068	CDS	1341	rcsC_1	2.7.13.3		Sensor histidine kinase RcsC
+HNLBOBEM_00069	CDS	1122	rcsC_2	2.7.13.3		Sensor histidine kinase RcsC
+HNLBOBEM_00070	CDS	405				hypothetical protein
+HNLBOBEM_00071	CDS	477	rcsC_3	2.7.13.3		Sensor histidine kinase RcsC
+HNLBOBEM_00072	CDS	201				hypothetical protein
+HNLBOBEM_00073	tRNA	73				tRNA-Arg(tcg)
+HNLBOBEM_00074	CDS	255				hypothetical protein
+HNLBOBEM_00075	CDS	186				hypothetical protein
+HNLBOBEM_00076	tRNA	74				tRNA-Asn(att)
+HNLBOBEM_00077	CDS	1434				hypothetical protein
+HNLBOBEM_00078	CDS	198	rpsU1		COG0828	30S ribosomal protein S21 A
+HNLBOBEM_00079	CDS	312				hypothetical protein
+HNLBOBEM_00080	CDS	738				hypothetical protein
+HNLBOBEM_00081	CDS	360			COG1662	IS1 family transposase ISNpu9
+HNLBOBEM_00082	CDS	747	hetR_1	3.4.21.-		Heterocyst differentiation control protein
+HNLBOBEM_00083	CDS	348			COG3039	IS5 family transposase IS5Sa2
+HNLBOBEM_00084	CDS	411				hypothetical protein
+HNLBOBEM_00085	CDS	147	hetR_2	3.4.21.-		Heterocyst differentiation control protein
+HNLBOBEM_00086	CDS	1953				hypothetical protein
+HNLBOBEM_00087	CDS	1266				hypothetical protein
+HNLBOBEM_00088	CDS	1047	gutB	1.1.1.-	COG1063	Sorbitol dehydrogenase
+HNLBOBEM_00089	CDS	1776				hypothetical protein
+HNLBOBEM_00090	CDS	306				hypothetical protein
+HNLBOBEM_00091	CDS	1056	COQ5	2.1.1.163		2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial
+HNLBOBEM_00092	CDS	201				hypothetical protein
+HNLBOBEM_00093	CDS	1416	glnA	6.3.1.2	COG0174	Glutamine synthetase
+HNLBOBEM_00094	CDS	510	apcD_4			Phycobiliprotein beta chain
+HNLBOBEM_00095	CDS	837	tlyA	2.1.1.226	COG1189	16S/23S rRNA (cytidine-2'-O)-methyltransferase TlyA
+HNLBOBEM_00096	CDS	225				hypothetical protein
+HNLBOBEM_00097	CDS	1071	psbA3	1.10.3.9		Photosystem II protein D1 3
+HNLBOBEM_00098	CDS	228				hypothetical protein
+HNLBOBEM_00099	CDS	1383	era			GTPase Era
+HNLBOBEM_00100	CDS	861				hypothetical protein
+HNLBOBEM_00101	CDS	549				hypothetical protein
+HNLBOBEM_00102	CDS	315				hypothetical protein
+HNLBOBEM_00103	CDS	1350				hypothetical protein
+HNLBOBEM_00104	CDS	1932	dnaG	2.7.7.-	COG0358	DNA primase
+HNLBOBEM_00105	CDS	723	blh	3.-.-.-	COG0491	Beta-lactamase hydrolase-like protein
+HNLBOBEM_00106	CDS	420				hypothetical protein
+HNLBOBEM_00107	CDS	462				hypothetical protein
+HNLBOBEM_00108	CDS	1770			COG0659	putative sulfate transporter
+HNLBOBEM_00109	CDS	387				hypothetical protein
+HNLBOBEM_00110	CDS	2931				hypothetical protein
+HNLBOBEM_00111	CDS	1695				hypothetical protein
+HNLBOBEM_00112	CDS	324				hypothetical protein
+HNLBOBEM_00113	CDS	1047	selU	2.5.1.-	COG2603	tRNA 2-selenouridine synthase
+HNLBOBEM_00114	CDS	402				hypothetical protein
+HNLBOBEM_00115	CDS	462				hypothetical protein
+HNLBOBEM_00116	CDS	1173	moeZ		COG0476	putative adenylyltransferase/sulfurtransferase MoeZ
+HNLBOBEM_00117	CDS	1461	nplT	3.2.1.135		Neopullulanase
+HNLBOBEM_00118	CDS	2511				hypothetical protein
+HNLBOBEM_00119	CDS	144				hypothetical protein
+HNLBOBEM_00120	CDS	2046	rnr	3.1.13.1		Ribonuclease R
+HNLBOBEM_00121	CDS	216				hypothetical protein
+HNLBOBEM_00122	CDS	195	rpmG		COG0267	50S ribosomal protein L33
+HNLBOBEM_00123	CDS	546				hypothetical protein
+HNLBOBEM_00124	CDS	393				hypothetical protein
+HNLBOBEM_00125	CDS	1173				hypothetical protein
+HNLBOBEM_00126	CDS	3342	sasA_3	2.7.-.-		Adaptive-response sensory-kinase SasA
+HNLBOBEM_00127	CDS	1167	dnaN			Beta sliding clamp
+HNLBOBEM_00128	CDS	1374	dnaA		COG0593	Chromosomal replication initiator protein DnaA
+HNLBOBEM_00129	CDS	1305				hypothetical protein
+HNLBOBEM_00130	CDS	531	def	3.5.1.88	COG0242	Peptide deformylase
+HNLBOBEM_00131	CDS	1176				hypothetical protein
+HNLBOBEM_00132	CDS	1278				hypothetical protein
+HNLBOBEM_00133	CDS	2232	ctpC	3.6.3.-	COG2217	Manganese-exporting P-type ATPase
+HNLBOBEM_00134	CDS	297				hypothetical protein
+HNLBOBEM_00135	CDS	585				hypothetical protein
+HNLBOBEM_00136	CDS	411				hypothetical protein
+HNLBOBEM_00137	CDS	1074	dhaK	2.7.1.121	COG2376	PEP-dependent dihydroxyacetone kinase, dihydroxyacetone-binding subunit DhaK
+HNLBOBEM_00138	CDS	1989				hypothetical protein
+HNLBOBEM_00139	CDS	627	dhaL	2.7.1.121	COG2376	PEP-dependent dihydroxyacetone kinase, ADP-binding subunit DhaL
+HNLBOBEM_00140	CDS	1158	sbpA		COG1613	Sulfate-binding protein
+HNLBOBEM_00141	CDS	753	cysT			Sulfate transport system permease protein CysT
+HNLBOBEM_00142	CDS	873	cysW		COG4208	Sulfate transport system permease protein CysW
+HNLBOBEM_00143	CDS	537				hypothetical protein
+HNLBOBEM_00144	CDS	195				hypothetical protein
+HNLBOBEM_00145	CDS	783	sigB		COG1191	RNA polymerase sigma-B factor
+HNLBOBEM_00146	CDS	1041	dusA	1.3.1.-	COG0042	tRNA-dihydrouridine(20/20a) synthase
+HNLBOBEM_00147	CDS	834	menB	4.1.3.36	COG0447	1,4-dihydroxy-2-naphthoyl-CoA synthase
+HNLBOBEM_00148	CDS	1257				hypothetical protein
+HNLBOBEM_00149	CDS	1647	yojI		COG4615	ABC transporter ATP-binding/permease protein YojI
+HNLBOBEM_00150	CDS	348			COG3039	IS5 family transposase IS5Sa2
+HNLBOBEM_00151	CDS	432			COG3039	IS5 family transposase ISAva7
+HNLBOBEM_00152	CDS	993				hypothetical protein
+HNLBOBEM_00153	CDS	1140				hypothetical protein
+HNLBOBEM_00154	CDS	936				hypothetical protein
+HNLBOBEM_00155	CDS	1581	bepA	3.4.-.-		Beta-barrel assembly-enhancing protease
+HNLBOBEM_00156	CDS	1458	der_1			GTPase Der
+HNLBOBEM_00157	CDS	282				hypothetical protein
+HNLBOBEM_00158	CDS	2463	clpC			ATP-dependent Clp protease ATP-binding subunit ClpC
+HNLBOBEM_00159	CDS	306	yefM		COG2161	Antitoxin YefM
+HNLBOBEM_00160	CDS	318	relK	3.1.-.-	COG4115	Toxin RelK
+HNLBOBEM_00161	CDS	1098				hypothetical protein
+HNLBOBEM_00162	CDS	237				hypothetical protein
+HNLBOBEM_00163	CDS	1305	btuD_1	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+HNLBOBEM_00164	CDS	1077	COQ3	2.1.1.222		Ubiquinone biosynthesis O-methyltransferase, mitochondrial
+HNLBOBEM_00165	CDS	1275				hypothetical protein
+HNLBOBEM_00166	CDS	930				hypothetical protein
+HNLBOBEM_00167	CDS	603				hypothetical protein
+HNLBOBEM_00168	CDS	780				hypothetical protein
+HNLBOBEM_00169	CDS	666	nfi	3.1.21.7	COG1515	Endonuclease V
+HNLBOBEM_00170	CDS	651				hypothetical protein
+HNLBOBEM_00171	CDS	1467				hypothetical protein
+HNLBOBEM_00172	CDS	237				hypothetical protein
+HNLBOBEM_00173	CDS	735				hypothetical protein
+HNLBOBEM_00174	CDS	204				hypothetical protein
+HNLBOBEM_00175	CDS	435				hypothetical protein
+HNLBOBEM_00176	CDS	153				hypothetical protein
+HNLBOBEM_00177	CDS	561	cysC	2.7.1.25		putative adenylyl-sulfate kinase
+HNLBOBEM_00178	CDS	2178	kefB_1			Glutathione-regulated potassium-efflux system protein KefB
+HNLBOBEM_00179	CDS	525				hypothetical protein
+HNLBOBEM_00180	CDS	789				hypothetical protein
+HNLBOBEM_00181	CDS	537				hypothetical protein
+HNLBOBEM_00182	CDS	828	yadH		COG0842	Inner membrane transport permease YadH
+HNLBOBEM_00183	CDS	1818	estP	3.1.1.1	COG3240	Esterase EstP
+HNLBOBEM_00184	CDS	177				hypothetical protein
+HNLBOBEM_00185	CDS	2619	clpB			Chaperone protein ClpB
+HNLBOBEM_00186	CDS	306				putative 30S ribosomal protein PSRP-3
+HNLBOBEM_00187	CDS	414	atpC			ATP synthase epsilon chain
+HNLBOBEM_00188	CDS	1449	atpD	7.1.2.2		ATP synthase subunit beta
+HNLBOBEM_00189	CDS	1839		3.6.3.-	COG1132	Putative multidrug export ATP-binding/permease protein
+HNLBOBEM_00190	CDS	1050				hypothetical protein
+HNLBOBEM_00191	CDS	1326	bshA	2.4.1.-	COG0438	N-acetyl-alpha-D-glucosaminyl L-malate synthase
+HNLBOBEM_00192	CDS	1185	murG_1	2.4.1.227		UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+HNLBOBEM_00193	CDS	1248	murG_2	2.4.1.227		UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+HNLBOBEM_00194	CDS	1404	tuaD	1.1.1.22	COG1004	UDP-glucose 6-dehydrogenase TuaD
+HNLBOBEM_00195	CDS	681	mprA		COG0745	Response regulator MprA
+HNLBOBEM_00196	CDS	315	senX3	2.7.13.3		Signal-transduction histidine kinase senX3
+HNLBOBEM_00197	CDS	411				hypothetical protein
+HNLBOBEM_00198	CDS	348			COG3039	IS5 family transposase IS5Sa2
+HNLBOBEM_00199	CDS	1116				hypothetical protein
+HNLBOBEM_00200	CDS	822				hypothetical protein
+HNLBOBEM_00201	CDS	453				hypothetical protein
+HNLBOBEM_00202	CDS	270				hypothetical protein
+HNLBOBEM_00203	CDS	2202				hypothetical protein
+HNLBOBEM_00204	CDS	990		1.17.4.-	COG4243	Vitamin K epoxide reductase 
+HNLBOBEM_00205	CDS	867				hypothetical protein
+HNLBOBEM_00206	CDS	1320	rimO	2.8.4.4	COG0621	Ribosomal protein S12 methylthiotransferase RimO
+HNLBOBEM_00207	CDS	1551	crhR	3.6.4.13		RNA helicase CrhR
+HNLBOBEM_00208	CDS	291	msbA	7.5.2.6	COG1132	Lipid A export ATP-binding/permease protein MsbA
+HNLBOBEM_00209	CDS	165				hypothetical protein
+HNLBOBEM_00210	CDS	939				hypothetical protein
+HNLBOBEM_00211	CDS	891				hypothetical protein
+HNLBOBEM_00212	CDS	2439	btuB_1			Vitamin B12 transporter BtuB
+HNLBOBEM_00213	CDS	1293	sasA_4	2.7.-.-		Adaptive-response sensory-kinase SasA
+HNLBOBEM_00214	CDS	681	tcrA		COG0745	Transcriptional regulatory protein TcrA
+HNLBOBEM_00215	CDS	453				hypothetical protein
+HNLBOBEM_00216	CDS	1437	pucC			Protein PucC
+HNLBOBEM_00217	CDS	807	suhB	3.1.3.11	COG0483	Fructose-1,6-bisphosphatase/inositol-1-monophosphatase
+	repeat_region	4372				
+HNLBOBEM_00218	CDS	1026				hypothetical protein
+HNLBOBEM_00219	CDS	960	neoA	1.1.1.329		2-deoxy-scyllo-inosamine dehydrogenase
+HNLBOBEM_00220	CDS	276				hypothetical protein
+HNLBOBEM_00221	CDS	1092	menA	2.5.1.74		1,4-dihydroxy-2-naphthoate octaprenyltransferase
+HNLBOBEM_00222	CDS	1101				hypothetical protein
+HNLBOBEM_00223	CDS	195				hypothetical protein
+HNLBOBEM_00224	CDS	528	ileS	6.1.1.5	COG0060	Isoleucine--tRNA ligase
+HNLBOBEM_00225	CDS	192				hypothetical protein
+HNLBOBEM_00226	CDS	1089	ald	1.4.1.1	COG0686	Alanine dehydrogenase
+HNLBOBEM_00227	CDS	174				hypothetical protein
+HNLBOBEM_00228	CDS	297				hypothetical protein
+HNLBOBEM_00229	CDS	1083	pkwA	2.7.11.1		putative serine/threonine-protein kinase PkwA
+HNLBOBEM_00230	CDS	504				hypothetical protein
+HNLBOBEM_00231	CDS	2370	purL	6.3.5.3	COG0046	Phosphoribosylformylglycinamidine synthase subunit PurL
+HNLBOBEM_00232	CDS	1503	purF	2.4.2.14	COG0034	Amidophosphoribosyltransferase
+HNLBOBEM_00233	CDS	798	cmpB			Bicarbonate transport system permease protein CmpB
+HNLBOBEM_00234	CDS	804	cmpC	3.6.3.-		Bicarbonate transport ATP-binding protein CmpC
+HNLBOBEM_00235	CDS	1305	nrtA			Nitrate/nitrite binding protein NrtA
+HNLBOBEM_00236	CDS	1164				hypothetical protein
+HNLBOBEM_00237	CDS	1209				IS200/IS605 family transposase ISAsp19
+HNLBOBEM_00238	CDS	2685	pacL	7.2.2.10	COG0474	Calcium-transporting ATPase
+HNLBOBEM_00239	CDS	615				hypothetical protein
+HNLBOBEM_00240	CDS	219				hypothetical protein
+HNLBOBEM_00241	CDS	975	yrbG		COG0530	Inner membrane protein YrbG
+HNLBOBEM_00242	CDS	399				hypothetical protein
+HNLBOBEM_00243	CDS	501				hypothetical protein
+HNLBOBEM_00244	CDS	348				hypothetical protein
+HNLBOBEM_00245	CDS	1287	eno_1	4.2.1.11		Enolase
+HNLBOBEM_00246	CDS	879				hypothetical protein
+HNLBOBEM_00247	CDS	117				hypothetical protein
+HNLBOBEM_00248	CDS	1734				hypothetical protein
+HNLBOBEM_00249	CDS	126				hypothetical protein
+HNLBOBEM_00250	CDS	156				hypothetical protein
+HNLBOBEM_00251	CDS	2682	mgtB	7.2.2.14	COG0474	Magnesium-transporting ATPase, P-type 1
+HNLBOBEM_00252	CDS	117				hypothetical protein
+HNLBOBEM_00253	CDS	372				hypothetical protein
+HNLBOBEM_00254	CDS	1164				hypothetical protein
+HNLBOBEM_00255	CDS	318	pipB		COG1357	Secreted effector protein PipB
+HNLBOBEM_00256	CDS	270				hypothetical protein
+HNLBOBEM_00257	CDS	255				hypothetical protein
+HNLBOBEM_00258	CDS	699	mgtC		COG1285	Protein MgtC
+HNLBOBEM_00259	CDS	1359	btuD_2	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+HNLBOBEM_00260	CDS	594				hypothetical protein
+HNLBOBEM_00261	CDS	921				IS607 family transposase ISArma1
+HNLBOBEM_00262	CDS	936				hypothetical protein
+HNLBOBEM_00263	CDS	1146	mshA_1	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+HNLBOBEM_00264	CDS	834				hypothetical protein
+HNLBOBEM_00265	CDS	1080	gmd	4.2.1.47	COG1089	GDP-mannose 4,6-dehydratase
+HNLBOBEM_00266	CDS	945	fcl	1.1.1.271	COG0451	GDP-L-fucose synthase
+HNLBOBEM_00267	CDS	558	yqgN		COG0212	putative protein YqgN
+HNLBOBEM_00268	CDS	1542				hypothetical protein
+HNLBOBEM_00269	CDS	405				Photosystem II lipoprotein Psb27
+HNLBOBEM_00270	CDS	1119	fbiC		COG1060	FO synthase
+HNLBOBEM_00271	CDS	1221	arnC_1	2.4.2.53		Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase
+HNLBOBEM_00272	CDS	363				hypothetical protein
+HNLBOBEM_00273	CDS	1761				hypothetical protein
+HNLBOBEM_00274	CDS	600				hypothetical protein
+HNLBOBEM_00275	CDS	249				hypothetical protein
+HNLBOBEM_00276	CDS	1626				putative protein
+HNLBOBEM_00277	CDS	603	cysR		COG0664	Regulatory protein CysR
+HNLBOBEM_00278	CDS	2199				hypothetical protein
+HNLBOBEM_00279	CDS	189				hypothetical protein
+HNLBOBEM_00280	CDS	108				hypothetical protein
+HNLBOBEM_00281	CDS	687	phoU		COG0704	Phosphate-specific transport system accessory protein PhoU 
+HNLBOBEM_00282	CDS	1317	sphS	2.7.13.3	COG0642	Sensor protein SphS
+HNLBOBEM_00283	CDS	753	sphR		COG0745	Alkaline phosphatase synthesis transcriptional regulatory protein SphR
+HNLBOBEM_00284	CDS	627	rlmD	2.1.1.190		23S rRNA (uracil(1939)-C(5))-methyltransferase RlmD
+HNLBOBEM_00285	CDS	1365	steT		COG0531	Serine/threonine exchanger SteT
+HNLBOBEM_00286	CDS	981				hypothetical protein
+HNLBOBEM_00287	CDS	1086				hypothetical protein
+HNLBOBEM_00288	CDS	102				hypothetical protein
+HNLBOBEM_00289	CDS	774	hisA	5.3.1.16	COG0106	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase
+HNLBOBEM_00290	CDS	291				hypothetical protein
+HNLBOBEM_00291	CDS	348				hypothetical protein
+HNLBOBEM_00292	CDS	267				hypothetical protein
+HNLBOBEM_00293	CDS	480				hypothetical protein
+HNLBOBEM_00294	CDS	651	pipB2		COG1357	Secreted effector protein PipB2
+HNLBOBEM_00295	CDS	5313				hypothetical protein
+HNLBOBEM_00296	CDS	678	cobO	2.5.1.17		Corrinoid adenosyltransferase
+HNLBOBEM_00297	CDS	735				hypothetical protein
+HNLBOBEM_00298	CDS	1140	pyrD	1.3.5.2	COG0167	Dihydroorotate dehydrogenase (quinone)
+HNLBOBEM_00299	CDS	2826				hypothetical protein
+HNLBOBEM_00300	CDS	171				hypothetical protein
+HNLBOBEM_00301	CDS	960		3.4.19.5	COG1446	Isoaspartyl peptidase/L-asparaginase
+HNLBOBEM_00302	CDS	1359	glmU		COG1207	Bifunctional protein GlmU
+HNLBOBEM_00303	CDS	1230	rcsC_4	2.7.13.3		Sensor histidine kinase RcsC
+HNLBOBEM_00304	CDS	927	mnmC	2.1.1.61		tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC
+HNLBOBEM_00305	CDS	819	sseA	2.8.1.2	COG2897	3-mercaptopyruvate sulfurtransferase
+HNLBOBEM_00306	CDS	1434				hypothetical protein
+HNLBOBEM_00307	CDS	1407				hypothetical protein
+HNLBOBEM_00308	CDS	2394	pknD_1	2.7.11.1		Serine/threonine-protein kinase PknD
+HNLBOBEM_00309	CDS	525				hypothetical protein
+HNLBOBEM_00310	CDS	1596	leuA	2.3.3.13	COG0119	2-isopropylmalate synthase
+HNLBOBEM_00311	CDS	135				hypothetical protein
+HNLBOBEM_00312	CDS	870				hypothetical protein
+HNLBOBEM_00313	CDS	975	nadA	2.5.1.72	COG0379	Quinolinate synthase A
+HNLBOBEM_00314	CDS	1308	pyrC	3.5.2.3	COG0044	Dihydroorotase
+HNLBOBEM_00315	CDS	1356	gpmA	5.4.2.11		2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+HNLBOBEM_00316	CDS	1362	der_2		COG1160	GTPase Der
+HNLBOBEM_00317	CDS	942	ecfT		COG0619	Energy-coupling factor transporter transmembrane protein EcfT
+HNLBOBEM_00318	CDS	1092	hpd	1.13.11.27	COG3185	4-hydroxyphenylpyruvate dioxygenase
+HNLBOBEM_00319	CDS	705	ppaX	3.6.1.1		Pyrophosphatase PpaX
+HNLBOBEM_00320	CDS	630				hypothetical protein
+HNLBOBEM_00321	CDS	726	phoP_2		COG0745	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP
+HNLBOBEM_00322	CDS	198				hypothetical protein
+HNLBOBEM_00323	CDS	651	hisI	3.5.4.19		Histidine biosynthesis bifunctional protein HisIE
+HNLBOBEM_00324	CDS	189				hypothetical protein
+HNLBOBEM_00325	CDS	1299	hemL	5.4.3.8	COG0001	Glutamate-1-semialdehyde 2,1-aminomutase
+HNLBOBEM_00326	CDS	162	smtA			Metallothionein
+HNLBOBEM_00327	CDS	1617	spkB	2.7.11.1		Serine/threonine-protein kinase B
+HNLBOBEM_00328	CDS	729				hypothetical protein
+HNLBOBEM_00329	CDS	1080	recA			Protein RecA
+HNLBOBEM_00330	CDS	1269	xseA	3.1.11.6	COG1570	Exodeoxyribonuclease 7 large subunit
+HNLBOBEM_00331	CDS	240	xseB	3.1.11.6		Exodeoxyribonuclease 7 small subunit
+HNLBOBEM_00332	CDS	174				hypothetical protein
+HNLBOBEM_00333	CDS	1008	arnC_2	2.4.2.53		Undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase
+HNLBOBEM_00334	CDS	1278	btuD_3	7.6.2.8		Vitamin B12 import ATP-binding protein BtuD
+HNLBOBEM_00335	CDS	861				hypothetical protein
+HNLBOBEM_00336	CDS	1491				hypothetical protein
+HNLBOBEM_00337	CDS	1074				hypothetical protein
+HNLBOBEM_00338	CDS	1290	mshA_2	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+HNLBOBEM_00339	CDS	1563				hypothetical protein
+HNLBOBEM_00340	CDS	1287	argD	2.6.1.11	COG4992	Acetylornithine aminotransferase
+HNLBOBEM_00341	CDS	1065	kefB_2			Glutathione-regulated potassium-efflux system protein KefB
+HNLBOBEM_00342	CDS	1230	tal_1	2.2.1.2		Transaldolase
+HNLBOBEM_00343	CDS	639	pspA	3.1.3.3	COG0406	Phosphoserine phosphatase 1
+HNLBOBEM_00344	CDS	1224	ackA	2.7.2.1	COG0282	Acetate kinase
+HNLBOBEM_00345	CDS	2568				hypothetical protein
+HNLBOBEM_00346	CDS	3417				hypothetical protein
+HNLBOBEM_00347	CDS	1140				hypothetical protein
+HNLBOBEM_00348	CDS	288				hypothetical protein
+HNLBOBEM_00349	CDS	195				hypothetical protein
+HNLBOBEM_00350	CDS	1842	kynB	3.5.1.9		Kynurenine formamidase
+HNLBOBEM_00351	CDS	4287	sasA_5	2.7.-.-		Adaptive-response sensory-kinase SasA
+HNLBOBEM_00352	CDS	1104	trpD2	2.4.2.18	COG0547	Anthranilate phosphoribosyltransferase 2
+HNLBOBEM_00353	CDS	1098				hypothetical protein
+HNLBOBEM_00354	CDS	1179	carA	6.3.5.5	COG0505	Carbamoyl-phosphate synthase small chain
+HNLBOBEM_00355	CDS	405				hypothetical protein
+HNLBOBEM_00356	CDS	483	mrnC	3.1.26.-		Mini-ribonuclease 3
+HNLBOBEM_00357	CDS	945	rlmB	2.1.1.185		23S rRNA (guanosine-2'-O-)-methyltransferase RlmB
+HNLBOBEM_00358	CDS	303				hypothetical protein
+HNLBOBEM_00359	CDS	861	menH	4.2.99.20		2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase
+HNLBOBEM_00360	CDS	696				hypothetical protein
+HNLBOBEM_00361	CDS	723				hypothetical protein
+HNLBOBEM_00362	CDS	765				hypothetical protein
+HNLBOBEM_00363	CDS	6795	rcsC_5	2.7.13.3		Sensor histidine kinase RcsC
+HNLBOBEM_00364	CDS	201				hypothetical protein
+HNLBOBEM_00365	CDS	561				hypothetical protein
+HNLBOBEM_00366	CDS	576				hypothetical protein
+HNLBOBEM_00367	CDS	231				hypothetical protein
+HNLBOBEM_00368	CDS	1749	pknD_2	2.7.11.1		Serine/threonine-protein kinase PknD
+HNLBOBEM_00369	CDS	987	dnaJ		COG0484	Chaperone protein DnaJ
+HNLBOBEM_00370	CDS	2094	dnaK2			Chaperone protein dnaK2
+HNLBOBEM_00371	CDS	846				hypothetical protein
+HNLBOBEM_00372	CDS	1452	pknD_3	2.7.11.1		Serine/threonine-protein kinase PknD
+HNLBOBEM_00373	CDS	225				hypothetical protein
+HNLBOBEM_00374	CDS	795				hypothetical protein
+HNLBOBEM_00375	CDS	2721	clcA			H(+)/Cl(-) exchange transporter ClcA
+HNLBOBEM_00376	CDS	150				hypothetical protein
+HNLBOBEM_00377	CDS	3261	rcsC_6	2.7.13.3		Sensor histidine kinase RcsC
+HNLBOBEM_00378	CDS	771				hypothetical protein
+HNLBOBEM_00379	CDS	255				hypothetical protein
+HNLBOBEM_00380	CDS	1251				hypothetical protein
+HNLBOBEM_00381	CDS	1047	lpxD	2.3.1.191	COG1044	UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase
+HNLBOBEM_00382	CDS	762				hypothetical protein
+HNLBOBEM_00383	CDS	762				hypothetical protein
+HNLBOBEM_00384	CDS	666				hypothetical protein
+HNLBOBEM_00385	CDS	465	IMPDH	1.1.1.205		Inosine-5'-monophosphate dehydrogenase
+HNLBOBEM_00386	CDS	1053	ysdC	3.4.11.-	COG1363	Putative aminopeptidase YsdC
+HNLBOBEM_00387	CDS	201				hypothetical protein
+HNLBOBEM_00388	CDS	984		2.3.1.43		Phosphatidylcholine-sterol acyltransferase
+HNLBOBEM_00389	CDS	117				hypothetical protein
+HNLBOBEM_00390	CDS	1425				hypothetical protein
+HNLBOBEM_00391	CDS	1188	sasA_6	2.7.13.3		Adaptive-response sensory-kinase SasA
+HNLBOBEM_00392	CDS	840	qmcA		COG0330	Protein QmcA
+HNLBOBEM_00393	CDS	846	folP	2.5.1.15	COG0294	Dihydropteroate synthase
+HNLBOBEM_00394	CDS	756	tpiA	5.3.1.1		Triosephosphate isomerase
+HNLBOBEM_00395	CDS	1053				hypothetical protein
+HNLBOBEM_00396	CDS	1230				hypothetical protein
+HNLBOBEM_00397	CDS	2499	ppsA	2.7.9.2	COG0574	Phosphoenolpyruvate synthase
+HNLBOBEM_00398	CDS	1470	pmt	2.4.1.109	COG1928	putative dolichyl-phosphate-mannose--protein mannosyltransferase
+HNLBOBEM_00399	CDS	2304	cph1	2.7.13.3		Phytochrome-like protein cph1
+HNLBOBEM_00400	CDS	447	rcp1_2			Response regulator rcp1
+HNLBOBEM_00401	CDS	1176	rcsC_7	2.7.13.3		Sensor histidine kinase RcsC
+HNLBOBEM_00402	CDS	585				hypothetical protein
+HNLBOBEM_00403	CDS	651	trmB	2.1.1.33	COG0220	tRNA (guanine-N(7)-)-methyltransferase
+HNLBOBEM_00404	CDS	1107	cpdA	3.1.4.53		3',5'-cyclic adenosine monophosphate phosphodiesterase CpdA
+HNLBOBEM_00405	CDS	1212			COG4398	putative protein
+HNLBOBEM_00406	CDS	222				hypothetical protein
+HNLBOBEM_00407	CDS	597				hypothetical protein
+HNLBOBEM_00408	CDS	336				hypothetical protein
+HNLBOBEM_00409	CDS	1134				hypothetical protein
+HNLBOBEM_00410	CDS	870	dpnM	2.1.1.72		Modification methylase DpnIIA
+HNLBOBEM_00411	tRNA	83				tRNA-Leu(gag)
+HNLBOBEM_00412	CDS	1461	accC	6.3.4.14	COG0439	Biotin carboxylase
+HNLBOBEM_00413	CDS	288				hypothetical protein
+HNLBOBEM_00414	CDS	120	psbX			Photosystem II reaction center X protein
+HNLBOBEM_00415	CDS	924				hypothetical protein
+HNLBOBEM_00416	CDS	561	tolB_1			Tol-Pal system protein TolB
+HNLBOBEM_00417	CDS	525	tolB_2			Tol-Pal system protein TolB
+HNLBOBEM_00418	CDS	1005				hypothetical protein
+HNLBOBEM_00419	CDS	435				hypothetical protein
+HNLBOBEM_00420	CDS	876				hypothetical protein
+HNLBOBEM_00421	CDS	978				hypothetical protein
+HNLBOBEM_00422	CDS	1683	ribBA	3.5.4.25		Riboflavin biosynthesis protein RibBA
+HNLBOBEM_00423	CDS	1059	argC	1.2.1.38	COG0002	N-acetyl-gamma-glutamyl-phosphate reductase
+HNLBOBEM_00424	CDS	1281	eno_2	4.2.1.11	COG0148	Enolase
+HNLBOBEM_00425	CDS	627				hypothetical protein
+HNLBOBEM_00426	CDS	1047	gap1	1.2.1.12	COG0057	Glyceraldehyde-3-phosphate dehydrogenase 1
+HNLBOBEM_00427	CDS	1005	tal_2	2.2.1.2	COG0176	Transaldolase
+HNLBOBEM_00428	CDS	1476	rcsC_8	2.7.13.3		Sensor histidine kinase RcsC
+HNLBOBEM_00429	CDS	1275	rcsC_9	2.7.13.3		Sensor histidine kinase RcsC
+HNLBOBEM_00430	CDS	2376	rcsC_10	2.7.13.3		Sensor histidine kinase RcsC
+HNLBOBEM_00431	CDS	1347	rcsC_11	2.7.13.3		Sensor histidine kinase RcsC
+HNLBOBEM_00432	CDS	2076	ligA	6.5.1.2	COG0272	DNA ligase
+HNLBOBEM_00433	CDS	1200	kdpD	2.7.13.3	COG2205	Sensor protein KdpD
+HNLBOBEM_00434	CDS	603	kdpC		COG2156	Potassium-transporting ATPase KdpC subunit
+HNLBOBEM_00435	CDS	279				hypothetical protein
+HNLBOBEM_00436	CDS	2109	kdpB	7.2.2.6	COG2216	Potassium-transporting ATPase ATP-binding subunit
+HNLBOBEM_00437	CDS	1686	kdpA		COG2060	Potassium-transporting ATPase potassium-binding subunit
+HNLBOBEM_00438	CDS	600				hypothetical protein
+HNLBOBEM_00439	CDS	978	panS		COG0385	Pantothenate precursors transporter PanS
+HNLBOBEM_00440	CDS	144				hypothetical protein
+HNLBOBEM_00441	CDS	2586	priA	3.6.4.-		primosomal protein N'
+HNLBOBEM_00442	CDS	1170	rpoD			RNA polymerase sigma factor RpoD
+HNLBOBEM_00443	CDS	498				hypothetical protein
+HNLBOBEM_00444	CDS	336	petJ		COG2010	Cytochrome c6
+HNLBOBEM_00445	CDS	924				hypothetical protein
+HNLBOBEM_00446	CDS	2121	btuB_2			Vitamin B12 transporter BtuB
+HNLBOBEM_00447	CDS	294				hypothetical protein
+HNLBOBEM_00448	CDS	618				hypothetical protein
+HNLBOBEM_00449	CDS	1392	pknD_4	2.7.11.1		Serine/threonine-protein kinase PknD
+HNLBOBEM_00450	CDS	1092	man5A	3.2.1.78		Mannan endo-1,4-beta-mannosidase
+HNLBOBEM_00451	CDS	3480	tolB_3			Tol-Pal system protein TolB
+HNLBOBEM_00452	CDS	252				hypothetical protein
+HNLBOBEM_00453	CDS	486				hypothetical protein
+HNLBOBEM_00454	CDS	105				hypothetical protein
+HNLBOBEM_00455	CDS	411				hypothetical protein
+HNLBOBEM_00456	CDS	468				hypothetical protein
+HNLBOBEM_00457	CDS	498	hmp	1.14.12.17		Flavohemoprotein
+HNLBOBEM_00458	CDS	549				hypothetical protein
+HNLBOBEM_00459	CDS	549				hypothetical protein
+HNLBOBEM_00460	CDS	366				hypothetical protein
+HNLBOBEM_00461	CDS	279				hypothetical protein
+HNLBOBEM_00462	CDS	96				hypothetical protein
+HNLBOBEM_00463	CDS	573				hypothetical protein
+HNLBOBEM_00464	CDS	1368				hypothetical protein
+HNLBOBEM_00465	CDS	870	truB	5.4.99.25		tRNA pseudouridine synthase B
+HNLBOBEM_00466	CDS	936	rihA	3.2.-.-	COG1957	Pyrimidine-specific ribonucleoside hydrolase RihA
+HNLBOBEM_00467	CDS	432	tadA	3.5.4.33		tRNA-specific adenosine deaminase
+HNLBOBEM_00468	CDS	1650				hypothetical protein
+HNLBOBEM_00469	CDS	396				hypothetical protein
+HNLBOBEM_00470	CDS	3465	rapA	3.6.4.-		RNA polymerase-associated protein RapA
+HNLBOBEM_00471	CDS	192				hypothetical protein
+HNLBOBEM_00472	CDS	513				hypothetical protein
+HNLBOBEM_00473	CDS	3054				hypothetical protein
+HNLBOBEM_00474	CDS	585				hypothetical protein
+HNLBOBEM_00475	CDS	2928				hypothetical protein
+HNLBOBEM_00476	CDS	390				hypothetical protein
+HNLBOBEM_00477	CDS	1155				hypothetical protein
+HNLBOBEM_00478	CDS	1068	cysA	7.3.2.3	COG1118	Sulfate/thiosulfate import ATP-binding protein CysA
+HNLBOBEM_00479	CDS	738	modB		COG4149	Molybdenum transport system permease protein ModB
+HNLBOBEM_00480	CDS	813	modA		COG0725	Molybdate-binding protein ModA
+HNLBOBEM_00481	CDS	1071	sphX		COG0226	Protein SphX
+HNLBOBEM_00482	CDS	939				hypothetical protein
+HNLBOBEM_00483	CDS	933	pstA		COG0581	Phosphate transport system permease protein PstA
+HNLBOBEM_00484	CDS	798	pstB3	7.3.2.1	COG1117	Phosphate import ATP-binding protein PstB 3
+HNLBOBEM_00485	CDS	2166				hypothetical protein
+HNLBOBEM_00486	CDS	876	hcaB	1.3.1.87		3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase
+HNLBOBEM_00487	CDS	225	mbtH		COG3251	Protein MbtH
+HNLBOBEM_00488	CDS	327				hypothetical protein
+HNLBOBEM_00489	CDS	1377	mepA			Multidrug export protein MepA
+HNLBOBEM_00490	CDS	213				hypothetical protein
+HNLBOBEM_00491	CDS	891				hypothetical protein
+HNLBOBEM_00492	CDS	1380		1.14.-.-	COG2124	Putative cytochrome P450 135B1
+HNLBOBEM_00493	CDS	4116	dltA	6.2.1.54		D-alanine--D-alanyl carrier protein ligase
+HNLBOBEM_00494	CDS	768	tam	2.1.1.144		Trans-aconitate 2-methyltransferase
+HNLBOBEM_00495	CDS	1971				hypothetical protein

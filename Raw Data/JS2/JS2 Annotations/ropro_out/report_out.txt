@@ -1,0 +1,68 @@
+ROPRO: REPORT ON PROKKA
+
+SAMPLE: prokka_out
+
+
+-------------------------------------------------------------
+ANNOTATIONS BY FUNCTION
+
+CDS: 6042
+hypothetical protein: 3341
+putative protein: 39
+perc_hypothetical: 55.3%
+perc_putative: 0.65%
+
+
+-------------------------------------------------------------
+tRNA BREAKDOWN
+
+tRNAs total: 69
+tRNAs by AA: 		Ala:7	Arg:6	Asn:3	Asp:1	Cys:1
+			Gln:3	Glu:2	Gly:4	His:1	Ile:3
+			Leu:7	Lys:4	Met:4	Phe:2	Pro:4
+			Ser:5	Thr:3	Trp:2	Tyr:2	Val:4
+			
+tRNA AA range: 1-7
+
+tRNAs by codon: 	aaa:0	aac:0	aag:0	aat:0
+			aca:0	acc:0	acg:2	act:0
+			aga:0	agc:0	agg:0	agt:0
+			ata:0	atc:0	atg:0	att:1
+			caa:2	cac:0	cag:1	cat:4
+			cca:2	ccc:1	ccg:1	cct:0
+			cga:1	cgc:1	cgg:1	cgt:1
+			cta:0	ctc:1	ctg:0	ctt:1
+			gaa:2	gac:1	gag:1	gat:3
+			gca:1	gcc:1	gcg:0	gct:1
+			gga:1	ggc:1	ggg:1	ggt:1
+			gta:2	gtc:1	gtg:1	gtt:2
+			taa:1	tac:3	tag:2	tat:0
+			tca:0	tcc:2	tcg:1	tct:2
+			tga:2	tgc:5	tgg:2	tgt:1
+			tta:0	ttc:1	ttg:3	ttt:3
+			
+
+
+-------------------------------------------------------------
+NUMBER OF IDENTIFIER GENES
+
+16S: 4
+rpoB: 1
+dnaA: 1
+
+
+-------------------------------------------------------------
+BLAST ALIGNMENTS
+
+JGKFFLGN_00001_dnaA: 
+
+JGKFFLGN_00637_16S: 
+
+JGKFFLGN_00945_rpoB: 
+
+JGKFFLGN_01692_16S: 
+
+JGKFFLGN_02089_16S: 
+
+JGKFFLGN_03695_16S: 
+

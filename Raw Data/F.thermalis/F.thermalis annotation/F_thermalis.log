@@ -1,0 +1,174 @@
+[12:35:52] This is prokka 1.14.6
+[12:35:52] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[12:35:52] Homepage is https://github.com/tseemann/prokka
+[12:35:52] Local time is Fri Apr 21 12:35:52 2023
+[12:35:52] You are not telling me who you are!
+[12:35:52] Operating system is linux
+[12:35:52] You have BioPerl 1.7.8
+[12:35:52] System has 16 cores.
+[12:35:52] Will use maximum of 12 cores.
+[12:35:52] Annotating as >>> Bacteria <<<
+[12:35:52] Generating locus_tag from 'F.thermalis_NZ_AGIZ01000001.1.fasta' contents.
+[12:35:52] Setting --locustag HNLBOBEM from MD5 175b8be6e36fd404fadf01703462420b
+[12:35:52] Creating new output folder: prokka_out
+[12:35:52] Running: mkdir -p prokka_out
+[12:35:52] Using filename prefix: F_thermalis.XXX
+[12:35:52] Setting HMMER_NCPU=1
+[12:35:52] Writing log to: prokka_out/F_thermalis.log
+[12:35:52] Command: /root/anaconda3/envs/ulana/bin/prokka --outdir prokka_out --prefix F_thermalis F.thermalis_NZ_AGIZ01000001.1.fasta --cpus 12
+[12:35:52] Appending to PATH: /root/anaconda3/envs/ulana/bin
+[12:35:52] Looking for 'aragorn' - found /root/anaconda3/envs/ulana/bin/aragorn
+[12:35:52] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[12:35:52] Looking for 'barrnap' - found /root/anaconda3/envs/ulana/bin/barrnap
+[12:35:52] Determined barrnap version is 000009 from 'barrnap 0.9'
+[12:35:52] Looking for 'blastp' - found /root/anaconda3/envs/ulana/bin/blastp
+[12:35:53] Determined blastp version is 002013 from 'blastp: 2.13.0+'
+[12:35:53] Looking for 'cmpress' - found /root/anaconda3/envs/ulana/bin/cmpress
+[12:35:53] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[12:35:53] Looking for 'cmscan' - found /root/anaconda3/envs/ulana/bin/cmscan
+[12:35:53] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[12:35:53] Looking for 'egrep' - found /usr/bin/egrep
+[12:35:53] Looking for 'find' - found /usr/bin/find
+[12:35:53] Looking for 'grep' - found /usr/bin/grep
+[12:35:53] Looking for 'hmmpress' - found /root/anaconda3/envs/ulana/bin/hmmpress
+[12:35:53] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[12:35:53] Looking for 'hmmscan' - found /root/anaconda3/envs/ulana/bin/hmmscan
+[12:35:53] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[12:35:53] Looking for 'java' - found /root/anaconda3/envs/ulana/bin/java
+[12:35:53] Looking for 'makeblastdb' - found /root/anaconda3/envs/ulana/bin/makeblastdb
+[12:35:53] Determined makeblastdb version is 002013 from 'makeblastdb: 2.13.0+'
+[12:35:53] Looking for 'minced' - found /root/anaconda3/envs/ulana/bin/minced
+[12:35:53] Determined minced version is 004002 from 'minced 0.4.2'
+[12:35:53] Looking for 'parallel' - found /root/anaconda3/envs/ulana/bin/parallel
+[12:35:53] Determined parallel version is 20230122 from 'GNU parallel 20230122'
+[12:35:53] Looking for 'prodigal' - found /root/anaconda3/envs/ulana/bin/prodigal
+[12:35:53] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[12:35:53] Looking for 'prokka-genbank_to_fasta_db' - found /root/anaconda3/envs/ulana/bin/prokka-genbank_to_fasta_db
+[12:35:53] Looking for 'sed' - found /usr/bin/sed
+[12:35:53] Looking for 'tbl2asn' - found /root/anaconda3/envs/ulana/bin/tbl2asn
+[12:35:53] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[12:35:53] Using genetic code table 11.
+[12:35:53] Loading and checking input file: F.thermalis_NZ_AGIZ01000001.1.fasta
+[12:35:53] Wrote 1 contigs totalling 603159 bp.
+[12:35:53] Predicting tRNAs and tmRNAs
+[12:35:53] Running: aragorn -l -gc11  -w prokka_out\/F_thermalis\.fna
+[12:35:53] 1 tRNA-Glu [64800,64872] 35 (ttc)
+[12:35:53] 2 tRNA-Arg [82783,82855] 34 (tcg)
+[12:35:53] 3 tRNA-Asn [83526,83599] 34 (att)
+[12:35:53] 4 tRNA-Leu c[496535,496617] 36 (gag)
+[12:35:53] Found 4 tRNAs
+[12:35:53] Predicting Ribosomal RNAs
+[12:35:53] Running Barrnap with 12 threads
+[12:35:53] Found 0 rRNAs
+[12:35:53] Skipping ncRNA search, enable with --rfam if desired.
+[12:35:53] Total of 4 tRNA + rRNA features
+[12:35:53] Searching for CRISPR repeats
+[12:35:53] CRISPR1 NZ_AGIZ01000001.1 249682 with 61 spacers
+[12:35:53] Found 1 CRISPRs
+[12:35:53] Predicting coding sequences
+[12:35:53] Contigs total 603159 bp, so using single mode
+[12:35:53] Running: prodigal -i prokka_out\/F_thermalis\.fna -c -m -g 11 -p single -f sco -q
+[12:35:54] Excluding CDS which overlaps existing RNA (repeat_region) at NZ_AGIZ01000001.1:250976..251152 on - strand
+[12:35:54] Found 491 CDS
+[12:35:54] Connecting features back to sequences
+[12:35:54] Not using genus-specific database. Try --usegenus to enable it.
+[12:35:54] Annotating CDS, please be patient.
+[12:35:54] Will use 12 CPUs for similarity searching.
+[12:35:54] There are still 491 unannotated CDS left (started with 491)
+[12:35:54] Will use blast to search against /root/anaconda3/envs/ulana/db/kingdom/Bacteria/IS with 12 CPUs
+[12:35:54] Running: cat prokka_out\/F_thermalis\.IS\.tmp\.54\.faa | parallel --gnu --plain -j 12 --block 6754 --recstart '>' --pipe blastp -query - -db /root/anaconda3/envs/ulana/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_out\/F_thermalis\.IS\.tmp\.54\.blast 2> /dev/null
+[12:35:56] Deleting unwanted file: prokka_out/F_thermalis.IS.tmp.54.faa
+[12:35:56] Deleting unwanted file: prokka_out/F_thermalis.IS.tmp.54.blast
+[12:35:56] There are still 483 unannotated CDS left (started with 491)
+[12:35:56] Will use blast to search against /root/anaconda3/envs/ulana/db/kingdom/Bacteria/AMR with 12 CPUs
+[12:35:56] Running: cat prokka_out\/F_thermalis\.AMR\.tmp\.54\.faa | parallel --gnu --plain -j 12 --block 6692 --recstart '>' --pipe blastp -query - -db /root/anaconda3/envs/ulana/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_out\/F_thermalis\.AMR\.tmp\.54\.blast 2> /dev/null
+[12:35:57] Deleting unwanted file: prokka_out/F_thermalis.AMR.tmp.54.faa
+[12:35:57] Deleting unwanted file: prokka_out/F_thermalis.AMR.tmp.54.blast
+[12:35:57] There are still 483 unannotated CDS left (started with 491)
+[12:35:57] Will use blast to search against /root/anaconda3/envs/ulana/db/kingdom/Bacteria/sprot with 12 CPUs
+[12:35:57] Running: cat prokka_out\/F_thermalis\.sprot\.tmp\.54\.faa | parallel --gnu --plain -j 12 --block 6692 --recstart '>' --pipe blastp -query - -db /root/anaconda3/envs/ulana/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka_out\/F_thermalis\.sprot\.tmp\.54\.blast 2> /dev/null
+[12:36:02] Modify product: UPF0394 membrane protein XF_0766 => hypothetical protein
+[12:36:02] Modify product: UPF0394 membrane protein XF_0765 => hypothetical protein
+[12:36:02] Modify product: Probable sulfate transporter Rv1739c => putative sulfate transporter
+[12:36:02] Modify product: Probable adenylyltransferase/sulfurtransferase MoeZ => putative adenylyltransferase/sulfurtransferase MoeZ
+[12:36:02] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[12:36:02] Modify product: Probable ketoamine kinase HMPREF0351_12196 => putative ketoamine kinase
+[12:36:02] Modify product: Probable adenylyl-sulfate kinase => putative adenylyl-sulfate kinase
+[12:36:02] Modify product: Probable 30S ribosomal protein PSRP-3 => putative 30S ribosomal protein PSRP-3
+[12:36:02] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[12:36:02] Modify product: Vitamin K epoxide reductase homolog => Vitamin K epoxide reductase 
+[12:36:02] Modify product: UPF0053 inner membrane protein YtfL => hypothetical protein
+[12:36:02] Modify product: Uncharacterized oxidoreductase Rv2298 => putative oxidoreductase
+[12:36:02] Modify product: Probable serine/threonine-protein kinase PkwA => putative serine/threonine-protein kinase PkwA
+[12:36:02] Modify product: Uncharacterized protein YqgN => putative protein YqgN
+[12:36:02] Modify product: Uncharacterized protein alr4550 => putative protein
+[12:36:02] Modify product: Phosphate-specific transport system accessory protein PhoU homolog => Phosphate-specific transport system accessory protein PhoU 
+[12:36:02] Modify product: Probable dolichyl-phosphate-mannose--protein mannosyltransferase => putative dolichyl-phosphate-mannose--protein mannosyltransferase
+[12:36:02] Modify product: Uncharacterized protein Rv0628c => putative protein
+[12:36:02] Cleaned 18 /product names
+[12:36:02] Deleting unwanted file: prokka_out/F_thermalis.sprot.tmp.54.faa
+[12:36:02] Deleting unwanted file: prokka_out/F_thermalis.sprot.tmp.54.blast
+[12:36:02] There are still 307 unannotated CDS left (started with 491)
+[12:36:02] Will use hmmer3 to search against /root/anaconda3/envs/ulana/db/hmm/HAMAP.hmm with 12 CPUs
+[12:36:02] Running: cat prokka_out\/F_thermalis\.HAMAP\.hmm\.tmp\.54\.faa | parallel --gnu --plain -j 12 --block 4015 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /root/anaconda3/envs/ulana/db/hmm/HAMAP.hmm /dev/stdin > prokka_out\/F_thermalis\.HAMAP\.hmm\.tmp\.54\.hmmer3 2> /dev/null
+[12:36:05] Deleting unwanted file: prokka_out/F_thermalis.HAMAP.hmm.tmp.54.faa
+[12:36:05] Deleting unwanted file: prokka_out/F_thermalis.HAMAP.hmm.tmp.54.hmmer3
+[12:36:05] Labelling remaining 239 proteins as 'hypothetical protein'
+[12:36:05] Possible /pseudo 'Sensor histidine kinase RcsC' at NZ_AGIZ01000001.1 position 79066
+[12:36:05] Possible /pseudo 'UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase' at NZ_AGIZ01000001.1 position 219704
+[12:36:05] Possible /pseudo 'Tol-Pal system protein TolB' at NZ_AGIZ01000001.1 position 501433
+[12:36:05] Possible /pseudo 'Sensor histidine kinase RcsC' at NZ_AGIZ01000001.1 position 518491
+[12:36:05] Possible /pseudo 'Sensor histidine kinase RcsC' at NZ_AGIZ01000001.1 position 519916
+[12:36:05] Possible /pseudo 'Sensor histidine kinase RcsC' at NZ_AGIZ01000001.1 position 522316
+[12:36:05] Found 191 unique /gene codes.
+[12:36:05] Fixed 2 duplicate /gene - mshA_1 mshA_2
+[12:36:05] Fixed 3 duplicate /gene - tolB_1 tolB_2 tolB_3
+[12:36:05] Fixed 2 duplicate /gene - arnC_1 arnC_2
+[12:36:05] Fixed 2 duplicate /gene - der_1 der_2
+[12:36:05] Fixed 11 duplicate /gene - rcsC_1 rcsC_2 rcsC_3 rcsC_4 rcsC_5 rcsC_6 rcsC_7 rcsC_8 rcsC_9 rcsC_10 rcsC_11
+[12:36:05] Fixed 2 duplicate /gene - murG_1 murG_2
+[12:36:05] Fixed 2 duplicate /gene - rcp1_1 rcp1_2
+[12:36:05] Fixed 3 duplicate /gene - btuD_1 btuD_2 btuD_3
+[12:36:05] Fixed 2 duplicate /gene - kefB_1 kefB_2
+[12:36:05] Fixed 2 duplicate /gene - hetR_1 hetR_2
+[12:36:05] Fixed 6 duplicate /gene - sasA_1 sasA_2 sasA_3 sasA_4 sasA_5 sasA_6
+[12:36:05] Fixed 2 duplicate /gene - eno_1 eno_2
+[12:36:05] Fixed 2 duplicate /gene - btuB_1 btuB_2
+[12:36:05] Fixed 4 duplicate /gene - pknD_1 pknD_2 pknD_3 pknD_4
+[12:36:05] Fixed 4 duplicate /gene - apcD_1 apcD_2 apcD_3 apcD_4
+[12:36:05] Fixed 2 duplicate /gene - phoP_1 phoP_2
+[12:36:05] Fixed 2 duplicate /gene - tal_1 tal_2
+[12:36:05] Fixed 17 colliding /gene names.
+[12:36:05] Adding /locus_tag identifiers
+[12:36:05] Assigned 495 locus_tags to CDS and RNA features.
+[12:36:05] Writing outputs to prokka_out/
+[12:36:05] Generating annotation statistics file
+[12:36:05] Generating Genbank and Sequin files
+[12:36:05] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z prokka_out\/F_thermalis\.err -i prokka_out\/F_thermalis\.fsa 2> /dev/null
+[12:36:07] Deleting unwanted file: prokka_out/errorsummary.val
+[12:36:07] Deleting unwanted file: prokka_out/F_thermalis.dr
+[12:36:07] Deleting unwanted file: prokka_out/F_thermalis.fixedproducts
+[12:36:07] Deleting unwanted file: prokka_out/F_thermalis.ecn
+[12:36:07] Deleting unwanted file: prokka_out/F_thermalis.val
+[12:36:07] Repairing broken .GBK output that tbl2asn produces...
+[12:36:07] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < prokka_out\/F_thermalis\.gbf > prokka_out\/F_thermalis\.gbk
+[12:36:07] Deleting unwanted file: prokka_out/F_thermalis.gbf
+[12:36:07] Output files:
+[12:36:07] prokka_out/F_thermalis.err
+[12:36:07] prokka_out/F_thermalis.faa
+[12:36:07] prokka_out/F_thermalis.ffn
+[12:36:07] prokka_out/F_thermalis.fna
+[12:36:07] prokka_out/F_thermalis.fsa
+[12:36:07] prokka_out/F_thermalis.gbk
+[12:36:07] prokka_out/F_thermalis.gff
+[12:36:07] prokka_out/F_thermalis.log
+[12:36:07] prokka_out/F_thermalis.sqn
+[12:36:07] prokka_out/F_thermalis.tbl
+[12:36:07] prokka_out/F_thermalis.tsv
+[12:36:07] prokka_out/F_thermalis.txt
+[12:36:07] Annotation finished successfully.
+[12:36:07] Walltime used: 0.25 minutes
+[12:36:07] If you use this result please cite the Prokka paper:
+[12:36:07] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[12:36:07] Type 'prokka --citation' for more details.
+[12:36:07] Share and enjoy!
