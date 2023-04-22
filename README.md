@@ -36,8 +36,7 @@ For more R packages supporting reproducible research check out the taskview http
 
 # Workflow
 
-
-# This template also uses the convention that Folder names begin with a capital letter.
+This template also uses the convention that Folder names begin with a capital letter.
 
 All data goes into the Data folder and any subfolders.
 All code goes into the Code folder or subfolders.
@@ -46,7 +45,7 @@ All products (manuscripts, supplement, presentation slides, web apps, etc.) go i
 See the various README.md files in those folders for some more information.
 
 
-# Please see the README.md files in each folder for more details.
+Please see the README.md files in each folder for more details.
 
 This template has been populated with genomic data for the species in the Genus Fischerella in the `Raw Data` folder.
 The `Processing Code` folder contains several files that load the raw data, perform a bit of cleaning, and save the result in the `Processed Data` folder.
