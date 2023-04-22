@@ -3,14 +3,14 @@ Author: Chiyoko Onouye
 Date: 04-05-2023
 
 
-#Overview
+# Overview
 This repository contains genomic data for the Genus Fischerella and aims to do comparative analysis between species within this Genus using their Whole Genome Sequence--found in the `Raw Data` folder > `Species name` folder > `Species name Genome`. 
 
 
 ![JS2-Fischerella sp.](https://github.com/Yokohime/Chiyoko_ZOOL710_project3/blob/main/Products/Manuscript/Images/JS2_7.jpg)
 
 
-#History
+# History
 
 2023-02-16 First release with Data and Code folders with materials for data cleaning and initial exploration.
 
@@ -18,7 +18,7 @@ This repository contains genomic data for the Genus Fischerella and aims to do c
 
 2023-04-22 Added picture of Cyanobacteria.
 
-#Acknowledgments
+# Acknowledgments
 
 The genomes were sequences using a GitHub by Ethan Hill that can be cloned and modified from https://github.com/ehill-iolani/ulana.git
 The Docker Desktop script by Ethan Hill can also be found at https://hub.docker.com/r/ethill/ulana
@@ -27,17 +27,17 @@ A huge mahalo to these authors for their generosity in sharing their knowledge.
 
 
 
-#Software requirements
+# Software requirements
 This template lays out a data analysis project and report writing using R, Quarto, Github, Docker Desktop, Notepad ++, and Ulana.
 
 For more R packages supporting reproducible research check out the taskview https://cran.r-project.org/web/views/ReproducibleResearch.html
 
 
 
-##Workflow
+# Workflow
 
 
-#This template also uses the convention that Folder names begin with a capital letter.
+# This template also uses the convention that Folder names begin with a capital letter.
 
 All data goes into the Data folder and any subfolders.
 All code goes into the Code folder or subfolders.
@@ -46,7 +46,7 @@ All products (manuscripts, supplement, presentation slides, web apps, etc.) go i
 See the various README.md files in those folders for some more information.
 
 
-#Please see the README.md files in each folder for more details.
+# Please see the README.md files in each folder for more details.
 
 This template has been populated with genomic data for the species in the Genus Fischerella in the `Raw Data` folder.
 The `Processing Code` folder contains several files that load the raw data, perform a bit of cleaning, and save the result in the `Processed Data` folder.
@@ -55,7 +55,7 @@ The `Products` folder contains an example bibtex and CSL style files for referen
 The `Manuscript` folder contains a template for a report written as Quarto file. There is also a sub-folder containing an example template for a supplementary material file as is common in scientific articles these days.
 
 
-##Getting started
+# Getting started
 This is a Github template repository. The best way to get it and start using it is by following these steps.
 
 Once you got the repository, you can check out the examples by executing them in order.
