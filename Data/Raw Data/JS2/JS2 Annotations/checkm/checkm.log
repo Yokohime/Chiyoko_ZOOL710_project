@@ -1,0 +1,19 @@
+[2023-04-12 16:34:04] INFO: CheckM v1.2.2
+[2023-04-12 16:34:04] INFO: checkm lineage_wf --reduced_tree -t 4 -x fasta medaka checkm
+[2023-04-12 16:34:04] INFO: CheckM data: /home/db/checkm_db
+[2023-04-12 16:34:04] INFO: [CheckM - tree] Placing bins in reference genome tree.
+[2023-04-12 16:34:04] INFO: Identifying marker genes in 1 bins with 4 threads:
+[2023-04-12 16:34:23] INFO: Saving HMM info to file.
+[2023-04-12 16:34:23] INFO: Calculating genome statistics for 1 bins with 4 threads:
+[2023-04-12 16:34:24] INFO: Extracting marker genes to align.
+[2023-04-12 16:34:24] INFO: Parsing HMM hits to marker genes:
+[2023-04-12 16:34:24] INFO: Extracting 43 HMMs with 4 threads:
+[2023-04-12 16:34:24] INFO: Aligning 43 marker genes with 4 threads:
+[2023-04-12 16:34:25] INFO: Reading marker alignment files.
+[2023-04-12 16:34:25] INFO: Concatenating alignments.
+[2023-04-12 16:34:25] INFO: Placing 1 bins into the genome tree with pplacer (be patient).
+[2023-04-12 16:35:34] INFO: { Current stage: 0:01:30.058 || Total: 0:01:30.058 }
+[2023-04-12 16:35:34] INFO: [CheckM - lineage_set] Inferring lineage-specific marker sets.
+[2023-04-12 16:35:34] INFO: Reading HMM info from file.
+[2023-04-12 16:35:34] INFO: Parsing HMM hits to marker genes:
+[2023-04-12 16:35:34] INFO: Determining marker sets for each genome bin.
