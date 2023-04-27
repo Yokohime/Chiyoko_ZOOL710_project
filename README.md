@@ -1,4 +1,4 @@
-﻿# Chiyoko_ZOOL710_project
+﻿# Chiyoko ZOOL710 project
 Author: Chiyoko Onouye
 Date: 04-05-2023
 
@@ -18,17 +18,21 @@ This repository contains genomic data for the Genus Fischerella and aims to do c
 
 2023-04-22 Added picture of Cyanobacteria.
 
+2023-04-25 Added Gleobacter violaceus as an outgroup Species and redid the gene alignments. Replaced the genome data for a better read of Fischerella thermalis.
+
+2023-04-26 Fixed the pathing for the 'ProcessingData.R' and deleted much of the 'AnalysisCode.R' which still needs to be updated. Manuscript was added but not complete.
+
 # Acknowledgments
 
-The genomes were sequences using a GitHub by Ethan Hill that can be cloned and modified from https://github.com/ehill-iolani/ulana.git
+The genomes were annotated using a GitHub by Ethan Hill that can be cloned and modified from https://github.com/ehill-iolani/ulana.git
 The Docker Desktop script by Ethan Hill can also be found at https://hub.docker.com/r/ethill/ulana
-Whole genome sequence was done thanks to Dr.Stuart Donachie and his going out to the volcano and collecting samples, Iolani High School and Dr.Rebecca Prescott for help with sequencing, and Ethan Hill for help with the genome annotations.
+Whole genome sequence was done thanks to Dr.Stuart Donachie and his team for going out to the volcano and collecting samples, Iolani High School and Dr.Rebecca Prescott for funding the MinION and Illumina sequencing, and Ethan Hill for help with the genome annotations.
 A huge mahalo to these authors for their generosity in sharing their knowledge.
 
 
 
 # Software requirements
-This template lays out a data analysis project and report writing using R, Quarto, Github, Docker Desktop, Notepad ++, and Ulana.
+This repository lays out a data cleaning, analysis project and report writing using R, Quarto, Github, Docker Desktop, Ulana and a text editor.
 
 For more R packages supporting reproducible research check out the taskview https://cran.r-project.org/web/views/ReproducibleResearch.html
 
@@ -36,10 +40,10 @@ For more R packages supporting reproducible research check out the taskview http
 
 # Workflow
 
-This template also uses the convention that Folder names begin with a capital letter.
+This repository also uses the convention that Folder names begin with a capital letter.
 
-All data goes into the Data folder and any subfolders.
-All code goes into the Code folder or subfolders.
+All data goes into the 'Data' folder and any subfolders.
+All code goes into the 'Code' folder or subfolders.
 All results (figures, tables, computed values) go into Results folder or subfolders.
 All products (manuscripts, supplement, presentation slides, web apps, etc.) go into Products subfolders.
 See the various README.md files in those folders for some more information.
@@ -47,9 +51,9 @@ See the various README.md files in those folders for some more information.
 
 Please see the README.md files in each folder for more details.
 
-This template has been populated with genomic data for the species in the Genus Fischerella in the `Raw Data` folder.
-The `Processing Code` folder contains several files that load the raw data, perform a bit of cleaning, and save the result in the `Processed Data` folder.
-The `Analysis Code` folder contains several files that load the processed data,and do an exploratory analysis. These files produce figures and some numeric output (tables), which are saved to the results folder.
+This repository has been populated with genomic data for the species in the Genus Fischerella in the `Raw_Data` folder.
+The `Processing_Code` folder contains several files that load the raw data, perform a bit of cleaning, and save the result in the `Processed_Data` folder.
+The `Analysis_Code` folder contains several files that load the processed data,and do an exploratory analysis. These files produce figures and some numeric output (tables), which are saved to the results folder.
 The `Products` folder contains an example bibtex and CSL style files for references. Those files are used by the example manuscript and slides.
 The `Manuscript` folder contains a template for a report written as Quarto file. There is also a sub-folder containing an example template for a supplementary material file as is common in scientific articles these days.
 
