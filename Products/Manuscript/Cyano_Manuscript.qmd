@@ -6,7 +6,7 @@ date: "4-22-23"
 format: html
 editor: visual
 bibliography: ../../Cyano.bib
-csl: ../evolution.csl
+
 ---
 
 format: docx: toc: false number-sections: true highlight-style: github editor: markdown: wrap: 72 ---
