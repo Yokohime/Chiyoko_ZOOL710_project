@@ -5,11 +5,12 @@ author: "Chiyoko Onouye"
 date: "4-22-23"
 format: html
 editor: visual
+bibliography: ../../Cyano.bib
 ---
 
 format: docx: toc: false number-sections: true highlight-style: github editor: markdown: wrap: 72 ---
 
-# Summary/Abstract
+# Abstract
 
 *Cyanobacteria are a diverse group of Gram-negative oxygen-evolving photoautotrophic prokaryotes which play an important role in biological nitrogen fixation. These prokaryotes produce two kinds of metabolites: primary metabolites which are essential for survival and secondary metabolites which are required for auxiliary purposes--stress responses, defense mechanisms, metal carrying, and signaling. These secondary metabolites can include compounds that act as hormones, antibiotics, allelochemicals and toxins which is important because antibiotic resistance in bacteria and fungi is becoming a problem due to resistant pathogenic bacteria. Both species of cyanobacteria used in this experiment belong to a Genera with known toxin, antibiotic, and/or fungi producing species. Thus we aim to expand upon this work by investigating these newly identified species and their production of secondary metabolites. Specifically, we aim to 1) identify both novel cyanobacteria by doing whole genome sequencing and creating phylogenetic trees based on known conserved regions as well as 16s phylogenetic trees, 2) investigate secondary metabolites by annotating the genome sequenced, 3) test the reactivity of the antimicrobial and/or antifungal compounds produced by the cyanobacteria against Gram-Positive bacteria, Gram-Negative bacteria, and a fungal species, and to evaluate the potential toxicity of both species using an Artemia salina bioassay.*
 
@@ -19,49 +20,73 @@ format: docx: toc: false number-sections: true highlight-style: github editor: m
 
 ## General Background Information
 
-*Starting from Project 1, I used the Palmer Penguin dataset [@manual:2020] and cleaned it using Rstudio. This project--Project 2--aims to answer questions based on the clean data, again using Rstudio to make graphs and plots to help visualize the data.*
+**1.1 Beginning of life, Cyanobacteria**
+
+Cyanobacteria or Cyanophyta are an ancient group of oxygenic photosynthesizers that are estimated to have originated around 3.0 ga. The appearance of cyanobacteria led to the Great Oxygenation Event (GOE) approximately 2.4 billion years ago thus greatly modifying the Earth and its atmospheres(Guéguen, Nolwenn, and Eric Maréchal, 2021). These changes gave rise to new ecosystems due to the difference in climate, the reduction of atmospheric carbon dioxide, and the increased sunlight. Through the acquisition of the chloroplast and mitochondria via primary endosymbiosis, the rise of eukaryotes can be dated back to approximately \~1,200 million years ago (Shih, Patrick and Matzke, Nicholas, 2013). A second oxygenation event can be seen during theNeoproterozoic Oxygenation Event (NOE) approximately 800-600 million years ago due to the rise of algae. 
+
+ Since 2009, there are approximately 150 genera and over 2,000 species of cyanobacteria (Vincent, W.F., 2009). Cyanobacteria are morphologically diverse, ranging from unicellular to multicellular, they can be filamentous, coccoid, trichal, some can have differential cells such as heterocyst or akinetes. These are Gram-Negative bacteria that were originally described under the Botanical and it wasn't until 1978 that scientists proposed systems to resolve the classification of cyanobacteria and place them under the bacteriological code (Walter, Juline et al. 2017). Currently, there is a formal system which is a compromise between the Bacteriological and Botanical Codes for species and is based on botanical taxonomic criteria and includes bacteriological and molecular information (Palinska, Katarzyna and Surosz, Waldemar, 2014).  Their morphological diversity provided a challenge for scientists in terms of classification, but their biochemical and physiological properties allowed them to live almost anywhere such as in extreme environments such as hypersaline lakes and in calderas on active volcanoes. 
+
+\
+
+**1.2 Microbial Diversity and Housekeeping genes**
+
+\
+
+Locations such as the Hawaiian Archipelago provide a unique biodiversity hotspot due to the geographical isolation of these islands and the tropical climates year around. Well documented studies on microorganism communities and interactions are limited and there are still locations in which there has been little anthropogenic activity. Such locations provide ideally pristine habitats for the study of microbial diversity and potentially discovery of novel species. Locations such as underwater hydrothermal vents and lava calderas provide unique niches for organisms to thrive. 
+
+However, to thrive in such environments, these organisms must have adapted a way to obtain energy. With the rise of cyanobacteria (blue-green algae), Chlorophyta (green algae), Rhodophyta (red algae), Bacillariophyta (diatoms), and Plantae (photosynthetic eukaryotes) can also be broken down into two types of photophosphorylation: oxygenic phosphorylation and anoxygenic phosphorylation. Cyanobacteria and Eukaryotes fall under oxygenic phosphorylation, and produce O2 from H2O using chlorophyll as a light harvester and are considered photoautotrophs since they utilize light as energy and will fix CO2. 
+
+The process of gaining energy is a cycle called the Calvin-Benson-Bassham (CBB). This process is a reductive pentose phosphate pathway that assimilates CO2. Ribulose- 1,5-bisphosphate carboxylase/oxygenase (RubisCO) is one of the major enzymatic activities unique to the Calvin cycle and is also the CBB enzyme responsible for the fixation for CO2 (Hirota, Ryuichi et al. 2002). These genes encoding RubisCO are broken down into Ribulose bisphosphate carboxylase large chain (cbbL) and Ribulose bisphosphate carboxylase small chain (cbbS). While the compromise between the Botanical and Bacteriological Code for new species includes, phylogenetic analyses investigate the sequence divergence of the 16s rRNA gene, construction of the secondary structure of the 16s - 23s region, morphological description, and description of the thylakoid structure, recently papers like Jan Mares et al. (2019),  Xie, Wen - Qin et al. (1989), and Walter et al. (2017) have been published using additional housekeeping genes to help resolve placement of species within a Genera. 
+
+Gene transcription is directed through the DNA-dependent RNA polymerase, which in bacteria, is formed by a core RNA polymerase broken down into the sigma factors: α, β, β′, and σ.  The DNA-directed RNA polymerase subunit β (rpoB)and the DNA-directed RNA polymerase subunit β′ (rpoC and rpoC2) are adjacent to each other and are transcribed from the major promoter (Xie, Wen - Qin et al. 1989 ). Due to the 16s rRNA region lacking sensitivity for evolutionary changes, these additional housekeeping genes are being added to studies more recently. 
+
+Novel species of cyanobacteria were sampled from a volcano caldera located on Kiluea, HI in 2008. Three species of cyanobacteria have been isolated from a consortium of organisms growing in a mat on the cave wall.  We sequenced the cyanobacteria, all three of which were novel species, so following the compromise between the Botanical and Bacteriological Code, we will describe the morphology of the organisms, construct a secondary structure of the 16s - 23s region, and do a phylogenetic analysis of the whole genomes, rpoB gene, rpoC gene, rpoC2 gene, cbbL gene, and cbbS gene. We would also like to investigate the production of antibiotics and inhibitory genes of these novel species.
+
+\
 
 ## Description of data and data source
 
-*Novel species was discovered from Big Ell Cave located on Kilauea, Hawaii in 2008. Mutliple samples were taken from 2008 - 2018 in order to get an idea of the effects of a volcanic eruption on the biodiversity within the caldera. Samples were isolated to obtain what we are calling JS1 (Gleobacter violaceus), JS2 (Fischerella sp), and JS3 (Leptolygnbya sp).*
+*Novel species was discovered from Big Ell Cave located on Kilauea, Hawaii in 2008. Mutliple samples were taken from 2008 - 2018 in order to get an idea of the effects of a volcanic eruption on the biodiversity within the caldera. Samples were isolated to obtain what we are calling JS1 (Gleobacter violaceus), JS2 (Fischerella sp), and JS3 (Leptolygnbya sp). GitHub repository (https://github.com/Yokohime/Chiyoko_ZOOL710_project3.git) has the raw data, coding scripts for cleaning and analysis.*
 
-![Figure.1:Location of caldera located on Kiluea](/Supplement/Kileaua_location.jpg) ![Figure.2:Image of mat sampled from within Big Ell cave containing JS1, JS2, JS3, and including a multitude of other bacteria.](/Supplement/Big_Ell_Mat.JPG)
+![Figure.1: Location of caldera located on Kiluea, HI.](Supplement/Kileaua_location.jpg)
+
+![Figure.2: Image of mat sampled from within Big Ell cave containing JS1 (purple) , JS2 (green) , JS3 (green), and including a multitude of other bacteria.](Supplement/Big_Ell_Mat.JPG)
 
 ## Questions/Hypotheses to be addressed
 
 *Aims of this project include to address the following:*
 
--   1.Are these unknown cyanobacteria novel Species, Genera, or Family?\*
+-   <div>
 
--   2.Do these novel cyanobacteria--Leptolyngbya sp. and Fischerella sp.--produce any toxic secondary metabolites or any that inhibit the survival of another organism?\*
+    1.  Are these unknown cyanobacteria novel Species, Genera, or Family?
 
--   3.If these species produce any toxic or inhibitory secondary metabolites, are they novel?\*
+    </div>
+
+-   <div>
+
+    2.  Do these novel cyanobacteria--Leptolyngbya sp. and Fischerella sp.--produce any toxic secondary metabolites or any that inhibit the survival of another organism?
+
+    </div>
+
+-   <div>
+
+    3.  If these species produce any toxic or inhibitory secondary metabolites, are they novel?
+
+    </div>
 
 {{< pagebreak >}}
 
 # Methods
 
-\*After extracting the DNA, Illumina and MinION sequencing was done in the Advanced Studies in Genomics, Proteomics, and Bioinformatics (ASGPB) located at the University of Hawai'i at Manoa, Life Science Building 320. Genomic data for all available Fischerella species were obtained from National Center for Biotechnologu Information (NCBI). Genomes were annotated using Ulana, a Prokka pipeline written by Ethan Hill of Iolani High School. Using Rstudio, the annotations were cleaned and organized to extract the annotated genes of interest. Genes for the rpoB, rpoC, rpoC2,cbbL, and cbbS genes were extracted from the genome and aligned using MUSCLE 3.8.
+After extracting the DNA, Illumina and MinION sequencing was done in the Advanced Studies in Genomics, Proteomics, and Bioinformatics (ASGPB) located at the University of Hawai'i at Manoa, Life Science Building 320. Genomic data for all available Fischerella species were obtained from National Center for Biotechnologu Information (NCBI). Genomes were annotated using Ulana, a Prokka pipeline written by Ethan Hill of Iolani High School. Using Rstudio, the annotations were cleaned and organized to extract the annotated genes of interest. Genes for the rpoB, rpoC, rpoC2,cbbL, and cbbS genes were extracted from the genome and aligned using MUSCLE 3.8 which can be accessed on European Molecular Biology Laboratory (EMBL-EBI):https://www.ebi.ac.uk/Tools/msa/.
 
 ## Data acquisition, import and cleaning
 
-\*Data was obtained from field samples of a mat found in a volcanic calderea on Hawai'i. DNA was extracted and sequenced at the facilities located at the University of Hawai'i at Manoa. The whole genome was annotated and cleaned and can be found under /Data/Raw_Data_JS2/JS2_genome/JS2_MinION_only_20_contigs(1).fasta.
+\*Data was obtained from field samples of a mat found in a volcanic calderea on the island, Hawai'i in 2008. DNA was extracted and sequenced at the facilities located at the University of Hawai'i at Manoa. The whole genome was annotated and cleaned and can be found under under the Raw_data folder.
 
-#Cleaning script
+**Cleaning script**
 
-```{r, include=FALSE}
-source("Processingcode.R", local = knitr::knit_global())
-# or sys.source("your-script.R", envir = knitr::knit_global())
-```
-
-*Data was uploaded, checked for errors, and then organized to extract the data of interest. Comparison between each species was made in terms of what genes each species shared between each other as well as what genes were shared between all species.*
-
-#Anaylsis script
-
-```{r, include=FALSE}
-source("Anaylsis_Code.R", local = knitr::knit_global())
-# or sys.source("your-script.R", envir = knitr::knit_global())
-```
+*Data was uploaded, checked for errors, and then organized to extract the data of interest. Comparison between each species was made in terms of what genes each species shared between each other as well as what genes were shared between all species. Cleaning script can be found here: https://github.com/Yokohime/Chiyoko_ZOOL710_project3/blob/main/Code/Processing_Code/ProcessingData.R*
 
 {{< pagebreak >}}
 
@@ -69,83 +94,138 @@ source("Anaylsis_Code.R", local = knitr::knit_global())
 
 ## Exploratory/Descriptive analysis
 
-## Genes
+# 16s
 
 ```{r}
-#| label: fig.3:
-#| fig-cap: "Comparison between gender and body mass, culmen depth, culmen length, and flipper length respectively."
-#| echo: FALSE
-knitr::include_graphics("../../Products/Manuscript/images/cbbL_gene_Phylogenetic_tree.png")
-knitr::include_graphics("../../Products/Manuscript/images/cbbS_gene_Phylogenetic_tree.png")
-knitr::include_graphics("../../Products/Manuscript/images/rpoB_gene_Phylogenetic_tree.png")
-knitr::include_graphics("../../Products/Manuscript/images/rpoC_gene_Phylogenetic_tree.png")
-knitr::include_graphics("../../Products/Manuscript/images/rpoC2_gene_Phylogenetic_tree.png")
-```
+#| label: fig.3:16s rRNA gene
+#| fig-cap: "Phylogenetic tree based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#|echo: FALSE
+knitr::include_graphics("Images/16s_tree.gif")
 
-Difference between the sex of Adelie penguins.
-
-```{r}
-#| label: fig-Adelie specific gender comparison
-#| echo: FALSE
-knitr::include_graphics("../../Products/Manuscript//images/A_BM.png")
-knitr::include_graphics("../../Products/Manuscript//images/A_BM.png")
-knitr::include_graphics("../../Products/Manuscript//images/A_BM.png")
-knitr::include_graphics("../../Products/Manuscript//images/A_BM.png")
-```
-
-Difference between the sex of Gentoo penguins.
-
-```{r}
-#| label: fig-Gentoo specific gender comparison
-#| echo: FALSE
-knitr::include_graphics("../../Products/Manuscript//images/G_BM.png")
-knitr::include_graphics("../../Products/Manuscript//images/G_BM.png")
-knitr::include_graphics("../../Products/Manuscript//images/G_BM.png")
-knitr::include_graphics("../../Products/Manuscript//images/G_BM.png")
-```
-
-Difference between the sex of Chinstrap penguins.
-
-```{r}
-#| label: fig-Chinstrap specific gender comparison
-#| echo: FALSE
-knitr::include_graphics("../../Products/Manuscript//images/C_BM.png")
-knitr::include_graphics("../../Products/Manuscript//images/C_BM.png")
-knitr::include_graphics("../../Products/Manuscript//images/C_BM.png")
-knitr::include_graphics("../../Products/Manuscript//images/C_BM.png")
-```
-
-The Gentoo penguin seem to have a higher body mass, culmen length, and flipper length when compare to the Adelie and Chinstrap.When looking at the culmen length and culmen depth, the Adelie have a lower culmen length but a higher culmen depth than both the Chinstrap and Gentoo(@fig-species_comparison).
-
-```{r}
-#| label: fig-species_comparison
-#| fig-cap: "Comparison of body mass, culmen length, culmen depth, and flipper length of all species"
-#| echo: FALSE
-knitr::include_graphics("../../Products/Manuscript//images/Species_BMvCD.png")
-knitr::include_graphics("../../Products/Manuscript//images/Species_BMvCL.png")
-knitr::include_graphics("../../Products/Manuscript//images/Species_BMvFL.png")
-knitr::include_graphics("../../Products/Manuscript//images/Species_CLvCD.png")
-knitr::include_graphics("../../Products/Manuscript//images/Species_CLvFL.png")
 ```
 
 ```{r}
-#| label: fig-mass_species_island_density
-#| fig-cap: "Comparison of body mass, culmen length, culmen depth, and flipper length of all Islands."
+#| label: fig.3:16s rRNA gene.
+#| fig-cap: "Percent Identity based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#|echo: FALSE
+resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_16s.rds")
+knitr::kable(resulttable, digits=8)
+```
+
+# rpoB
+
+```{r}
+#| label: fig.3:rpoB
+#| fig-cap: "Phylogenetic tree based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#|echo: FALSE
+knitr::include_graphics("Images/rpoB_tree.gif")
+
+```
+
+| Col1          | Col2  | Col3   | Col4   | Col5   | Col6   | Col7   | Col8   | Col9   |
+|---------------|-------|--------|--------|--------|--------|--------|--------|--------|
+| Gleobacter. V | 100.0 | 71.68  | 70.27  | 70.64  | 70.58  | 70.61  | 69.63  | 70.12  |
+| F.pepsitadii  | 71.68 | 100.00 | 88.75  | 89.59  | 88.75  | 88.66  | 88.27  | 88.75  |
+| JS2           | 70.27 | 88.75  | 100.00 | 95.34  | 94.77  | 94.80  | 90.37  | 90.31  |
+| F.muscicola   | 70.64 | 89.59  | 95.34  | 100.00 | 96.33  | 96.21  | 90.91  | 91.25  |
+| F.major       | 70.58 | 88.75  | 94.77  | 96.33  | 100.00 | 99.25  | 90.28  | 90.40  |
+| F.thermalis   | 70.61 | 88.66  | 94.80  | 96.21  | 99.25  | 100.00 | 90.07  | 90.37  |
+| F.welwii      | 69.63 | 88.27  | 90.37  | 90.91  | 90.28  | 90.07  | 100.00 | 94.52  |
+| F.halapii     | 70.12 | 88.75  | 90.31  | 91.25  | 90.40  | 90.37  | 94.52  | 100.00 |
+
+: Table.1: Clustal2.1 Percent Identity Matrix for rpoB
+
+# rpoC
+
+```{r}
+#| label: fig.4:rpoC
+#| fig-cap: "Phylogenetic tree based on the rpoC gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #| echo: FALSE
-knitr::include_graphics("../../Products/Manuscript//images/Island_BMvCD.png")
-knitr::include_graphics("../../Products/Manuscript//images/Island_BMvCL.png")
-knitr::include_graphics("../../Products/Manuscript//images/Island_BMvFL.png")
-knitr::include_graphics("../../Products/Manuscript//images/Island_CLvCD.png")
-knitr::include_graphics("../../Products/Manuscript//images/Island_CLvFL.png")
+knitr::include_graphics("Images/rpoC_tree.gif")
+
+```
+
+```{r}
+#| label: fig.3:rpoC 
+#| fig-cap: "Percent Identity based on the rpo gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#|echo: FALSE
+resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_rpoC.rds")
+knitr::kable(resulttable, digits=8)
+```
+
+# rpoC2
+
+```{r}
+#| label: fig.5:rpoC2
+#| fig-cap: "Phylogenetic tree based on the rpoC2 gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| echo: FALSE
+knitr::include_graphics("Images/rpoC2_tree.gif")
+```
+
+```{r}
+#| label: fig.3:rpoC2 
+#| fig-cap: "Percent Identity based on the rpoC2 gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#|echo: FALSE
+resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_rpoC2.rds")
+knitr::kable(resulttable, digits=8)
+```
+
+# cbbL
+
+```{r}
+#| label: fig.6:cbbL
+#| fig-cap: "Phylogenetic tree based on the cbbL gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| echo: FALSE
+knitr::include_graphics("Images/cbbL_tree.gif")
+```
+
+```{r}
+#| label: fig.3:cbbL
+#| fig-cap: "Percent Identity based on the cbbL gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#|echo: FALSE
+resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_cbbL.rds")
+knitr::kable(resulttable, digits=8)
+
+```
+
+# cbbS
+
+```{r}
+#| label: fig.6:cbbL
+#| fig-cap:"Phylogenetic tree based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| echo: FALSE
+knitr::include_graphics("Images/cbbS_tree.gif")
+```
+
+```{r}
+#| label: fig.3:cbbS
+#| fig-cap: "Percent Identity based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#|echo: FALSE
+resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_cbbS.rds")
+knitr::kable(resulttable, digits=8)
+```
+
+# All genes combined
+
+```{r}
+#| label: fig.7: All genes aligned and combined together
+#| fig-cap: "Phylogenetic tree based on the cbbS, cbbL, rpoB, rpoC, and rpoC2 genes for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| echo: FALSE
+knitr::include_graphics("Images/All_genes_tree.gif")
+
+```
+
+```{r}
+#| label: fig.3:cbbS
+#| fig-cap: "Percent Identity based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#|echo: FALSE
+resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_All_genes.rds")
+knitr::kable(resulttable, digits=8)
 ```
 
 ## Further analyses
 
-Based on the graphs created, there were some interesting points that would be worth looking further into. The body mass on Biscoe was higher than that of Dream Island and Torgersen.It would be interesting to look into this and identify if this was due to a certain species of penguins being more abundant on this island. We should also take into account the size of the island and the distance between all three islands. Similarly, it is noted that there was not an equal amount of each three species sampled in the original dataset which might skew the data in favor of one species over another.
-
-Following the first idea, we noticed that the Gentoo Penguins have higher body mass than the other two species and noticed that Biscoe Island had the most amount of penguins sampled while Torgersen had the least amount sampled from. It would be interesting to look into the diet of the penguins since there was also a difference in culmen depth, culmen length, and flipper length between the penguins.
-
-Finally, to ensure that there is a significant difference, we can actually perform an anova for these questions to identify if there is a difference. This would give us a statistical value which would help support our figures above.
+The individual tree show different sister groups between each other and unfortunately, did not always have the Gleobacter violaceus as an outgroup as was intented.
 
 {{< pagebreak >}}
 
@@ -153,41 +233,18 @@ Finally, to ensure that there is a significant difference, we can actually perfo
 
 ## Summary and Interpretation
 
-For this project, the cleaned data was taken and analyzed using Rstudio to make graphs and plots to help visualize the data. Three questions were posed at the beginning, 1. Is there a difference between the sex of penguins, 2. Are there really three groups of penguins--Adelie, Gentoo, and Chinstrap, and 3. Is there an difference between the islands? For all three questions, all continuous data was used to help analyze the data. Bar plots and comparative scatter plots were made to help visual data to help answer our questions.
+For this project, the cleaned data was taken and analyzed using Rstudio to make graphs and plots to help visualize the data. Three questions were posed at the beginning, 1. Is there a difference between the sex of penguins, 2. There were toxic and inhibitory genes based on the genome annotations for JS2 and 3. Additional testing will need to be done to determine if these genes are being expressed at the time of extraction.
 
 ## Strengths and Limitations
 
-This analysis looked at all the data presented to get an overall visual of the data to answer these questions. Further analysis should be done to better support these findings and more data is needed to help balance the species and island comparisons as they were not sampled from equally and having more data points in one over the other two might greatly skew the results.
+This study is to investigate the presence of toxic, antibiotic, and/or inhibitory genes within the whole genome of our novel species. Thus, one huge factor to this experiment will be whether or not the secondary metabolite is being expressed when the MSMS and/or extraction is preformed. Secondary metabolites such as those I am interested are not consistently produced as this would be energetically expensive. Stressing the cyanobacteria out with environmental factors such as temperature, humidity, light, or pH will most likely have little to no effect on the secondary metabolites of interest, however introducing another bacterial species has its own problems. The current struggle is to keep these cultures anexic due to the fact that contaminates will add secondary metabolites not produced by the cyanobacteria, however, they can cause the cyanobacteria to produce secondary metabolites as a response mechanism. Another way to potentially obtain secondary metabolites of interest if they are not expressed, or in high enough concentrations would be to create a vector in another organism and promote the expression in that organism since the cyanobacteria grow so slow already.
 
 ## Conclusions
 
-To summarize, we found that 1. There is a difference between the sex of penguins, and more specifically, there is a difference between sex of all three species of penguins individually--with males having higher values in body mass, culmen length, culmen depth, and flipper length. 2. There are three distinct species of penguins based off the dataset, with Gentoo and Adelie having features that stick out, such as higher body mass and flipper length or higher culmen depth. 3. There is a difference between the islands as Biscoe Island had higher body mass than the other two. Dream Island also had a wider range of culmmen length when compared to Torgersen Island and Biscoe Island.
+To summarize, we found that there is a difference between phylogentic genetic trees, and more specifically, there is a difference between the placement of species between the phylogentic tree based on all genes concatenated verses each individual genes.
 
 {{< pagebreak >}}
 
 # References
 
-[@Manual{, title = {palmerpenguins: Palmer Archipelago (Antarctica) penguin data}, author = {Allison Marie Horst and Alison Presmanes Hill and Kristen B Gorman}, year = {2020}, note = {R package version 0.1.0}, doi = {10.5281/zenodo.3960218}, url = {https://allisonhorst.github.io/palmerpenguins/}, }]
-
 ------------------------------------------------------------------------
-
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).

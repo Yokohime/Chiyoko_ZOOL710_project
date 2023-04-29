@@ -1,0 +1,15 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Windows 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Yokohime (AVX2, FMA3, 15 GB RAM)
+Command: C:\Program Files\iqtree-2.1.2-Windows\bin\iqtree2.exe -s Galaxy18-[Merged_and_Filtered_FASTA_from_data_13,_data_12,_and_others].fasta
+Seed:    84495 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 28 01:04:48 2023
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading 3 alignment files...
+Reading alignment file Galaxy18-[Merged_and_Filtered_FASTA_from_data_13 ... ERROR: File not found Galaxy18-[Merged_and_Filtered_FASTA_from_data_13
