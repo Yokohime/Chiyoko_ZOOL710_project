@@ -6,6 +6,7 @@ date: "4-22-23"
 format: html
 editor: visual
 bibliography: ../../Cyano.bib
+csl: ../evolution.csl
 ---
 
 format: docx: toc: false number-sections: true highlight-style: github editor: markdown: wrap: 72 ---
@@ -105,7 +106,7 @@ knitr::include_graphics("Images/16s_tree.gif")
 ```
 
 ```{r}
-#| label: fig.3:16s rRNA gene.
+#| label: fig.4:16s rRNA gene.
 #| fig-cap: "Percent Identity based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #|echo: FALSE
 resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_16s.rds")
@@ -115,7 +116,7 @@ knitr::kable(resulttable, digits=8)
 # rpoB
 
 ```{r}
-#| label: fig.3:rpoB
+#| label: fig.5:rpoB
 #| fig-cap: "Phylogenetic tree based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #|echo: FALSE
 knitr::include_graphics("Images/rpoB_tree.gif")
@@ -138,7 +139,7 @@ knitr::include_graphics("Images/rpoB_tree.gif")
 # rpoC
 
 ```{r}
-#| label: fig.4:rpoC
+#| label: fig.6:rpoC
 #| fig-cap: "Phylogenetic tree based on the rpoC gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #| echo: FALSE
 knitr::include_graphics("Images/rpoC_tree.gif")
@@ -146,7 +147,7 @@ knitr::include_graphics("Images/rpoC_tree.gif")
 ```
 
 ```{r}
-#| label: fig.3:rpoC 
+#| label: fig.7:rpoC 
 #| fig-cap: "Percent Identity based on the rpo gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #|echo: FALSE
 resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_rpoC.rds")
@@ -156,14 +157,14 @@ knitr::kable(resulttable, digits=8)
 # rpoC2
 
 ```{r}
-#| label: fig.5:rpoC2
+#| label: fig.8:rpoC2
 #| fig-cap: "Phylogenetic tree based on the rpoC2 gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #| echo: FALSE
 knitr::include_graphics("Images/rpoC2_tree.gif")
 ```
 
 ```{r}
-#| label: fig.3:rpoC2 
+#| label: fig.9:rpoC2 
 #| fig-cap: "Percent Identity based on the rpoC2 gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #|echo: FALSE
 resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_rpoC2.rds")
@@ -173,14 +174,14 @@ knitr::kable(resulttable, digits=8)
 # cbbL
 
 ```{r}
-#| label: fig.6:cbbL
+#| label: fig.10:cbbL
 #| fig-cap: "Phylogenetic tree based on the cbbL gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #| echo: FALSE
 knitr::include_graphics("Images/cbbL_tree.gif")
 ```
 
 ```{r}
-#| label: fig.3:cbbL
+#| label: fig.11:cbbL
 #| fig-cap: "Percent Identity based on the cbbL gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #|echo: FALSE
 resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_cbbL.rds")
@@ -191,14 +192,14 @@ knitr::kable(resulttable, digits=8)
 # cbbS
 
 ```{r}
-#| label: fig.6:cbbL
-#| fig-cap:"Phylogenetic tree based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| label: fig.12:cbbS
+#| fig-cap: "Phylogenetic tree based on the cbbL gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #| echo: FALSE
 knitr::include_graphics("Images/cbbS_tree.gif")
 ```
 
 ```{r}
-#| label: fig.3:cbbS
+#| label: fig.13:cbbS
 #| fig-cap: "Percent Identity based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #|echo: FALSE
 resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_cbbS.rds")
@@ -208,7 +209,7 @@ knitr::kable(resulttable, digits=8)
 # All genes combined
 
 ```{r}
-#| label: fig.7: All genes aligned and combined together
+#| label: fig.14:All genes aligned and combined together
 #| fig-cap: "Phylogenetic tree based on the cbbS, cbbL, rpoB, rpoC, and rpoC2 genes for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #| echo: FALSE
 knitr::include_graphics("Images/All_genes_tree.gif")
@@ -216,7 +217,7 @@ knitr::include_graphics("Images/All_genes_tree.gif")
 ```
 
 ```{r}
-#| label: fig.3:cbbS
+#| label: fig.15:All genes percent identity.
 #| fig-cap: "Percent Identity based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #|echo: FALSE
 resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_All_genes.rds")
