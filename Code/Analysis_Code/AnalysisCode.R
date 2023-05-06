@@ -9,7 +9,6 @@
 ##Required packages...
 
 require(dplyr)
-require(qpcR)
 require(tidyverse)
 
 ## ---- loaddata --------
@@ -24,7 +23,7 @@ dat <- read.csv(data_location, check.names=FALSE)
 
 attributes(dat)
 Unique <- unique(dat) #All the unique genes found between all Species of Fischerella
-Duplicate <- anyDuplicated(Genes) #Trying to identify if there is any shared genes between all species
+Duplicate <- anyDuplicated(dat) #Trying to identify if there is any shared genes between all species
 
 options(knitr.kable.NA = "")
 knitr::kable(Unique, digits=1)
