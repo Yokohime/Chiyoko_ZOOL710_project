@@ -2,18 +2,20 @@
 title: "Manuscript for Cyanobacteria: A novel Species"
 subtitle: "Project 3"
 author: "Chiyoko Onouye"
-date: "4-22-23"
-format: html
-editor: visual
-bibliography: ../../Cyano.bib
-
+date: "`r Sys.Date()`"
+format:
+  docx:
+    toc: false
+    number-sections: true
+    highlight-style: github 
+bibliography: Cyano.bib
+    citation_package: natbib
+csl: apa.csl
 ---
-
-format: docx: toc: false number-sections: true highlight-style: github editor: markdown: wrap: 72 ---
 
 # Abstract
 
-*Cyanobacteria are a diverse group of Gram-negative oxygen-evolving photoautotrophic prokaryotes which play an important role in biological nitrogen fixation. These prokaryotes produce two kinds of metabolites: primary metabolites which are essential for survival and secondary metabolites which are required for auxiliary purposes--stress responses, defense mechanisms, metal carrying, and signaling. These secondary metabolites can include compounds that act as hormones, antibiotics, allelochemicals and toxins which is important because antibiotic resistance in bacteria and fungi is becoming a problem due to resistant pathogenic bacteria. Both species of cyanobacteria used in this experiment belong to a Genera with known toxin, antibiotic, and/or fungi producing species. Thus we aim to expand upon this work by investigating these newly identified species and their production of secondary metabolites. Specifically, we aim to 1) identify both novel cyanobacteria by doing whole genome sequencing and creating phylogenetic trees based on known conserved regions as well as 16s phylogenetic trees, 2) investigate secondary metabolites by annotating the genome sequenced, 3) test the reactivity of the antimicrobial and/or antifungal compounds produced by the cyanobacteria against Gram-Positive bacteria, Gram-Negative bacteria, and a fungal species, and to evaluate the potential toxicity of both species using an Artemia salina bioassay.*
+*Cyanobacteria are a diverse group of Gram-negative oxygen-evolving photoautotrophic prokaryotes which play an important role in biological nitrogen fixation. These prokaryotes produce two metabolites: primary metabolites, essential for survival, and secondary metabolites required for auxiliary purposes--stress responses, defense mechanisms, metal carrying, and signaling. These secondary metabolites can include compounds that act as hormones, antibiotics, allelochemicals, and toxins. This is important because antibiotic resistance in bacteria and fungi is becoming a problem due to resistant pathogenic bacteria. Both species of cyanobacteria used in this experiment belong to a Genera with known toxin, antibiotic, and/or fungi-producing species. Thus we aim to expand upon this work by investigating these newly identified species and their production of secondary metabolites. Specifically, we aim to 1) identify both novel cyanobacteria by doing whole genome sequencing and creating phylogenetic trees based on known conserved regions as well as 16s phylogenetic trees, 2) investigate secondary metabolites by annotating the genome sequenced, 3) test the reactivity of the antimicrobial and/or antifungal compounds produced by the cyanobacteria against Gram-Positive bacteria, Gram-Negative bacteria, and a fungal species, and to evaluate the potential toxicity of both species using an Artemia salina bioassay.*
 
 {{< pagebreak >}}
 
@@ -23,9 +25,9 @@ format: docx: toc: false number-sections: true highlight-style: github editor: m
 
 **1.1 Beginning of life, Cyanobacteria**
 
-Cyanobacteria or Cyanophyta are an ancient group of oxygenic photosynthesizers that are estimated to have originated around 3.0 ga. The appearance of cyanobacteria led to the Great Oxygenation Event (GOE) approximately 2.4 billion years ago thus greatly modifying the Earth and its atmospheres(Guéguen, Nolwenn, and Eric Maréchal, 2021). These changes gave rise to new ecosystems due to the difference in climate, the reduction of atmospheric carbon dioxide, and the increased sunlight. Through the acquisition of the chloroplast and mitochondria via primary endosymbiosis, the rise of eukaryotes can be dated back to approximately \~1,200 million years ago (Shih, Patrick and Matzke, Nicholas, 2013). A second oxygenation event can be seen during theNeoproterozoic Oxygenation Event (NOE) approximately 800-600 million years ago due to the rise of algae. 
+Cyanobacteria or Cyanophyta are an ancient group of oxygenic photosynthesizers estimated to have originated around 3.0 ga. The appearance of cyanobacteria led to the Great Oxygenation Event (GOE) approximately 2.4 billion years ago, thus greatly modifying the Earth and its atmospheres(Guéguen, Nolwenn, and Eric Maréchal, 2021). These changes gave rise to new ecosystems due to the difference in climate, the reduction of atmospheric carbon dioxide, and the increased sunlight. Through acquiring the chloroplast and mitochondria via primary endosymbiosis, the rise of eukaryotes can be dated back to approximately \~1,200 million years ago (Shih, Patrick and Matzke, Nicholas, 2013). A second oxygenation event can be seen during the Neoproterozoic Oxygenation Event (NOE) approximately 800-600 million years ago due to the rise of algae. 
 
- Since 2009, there are approximately 150 genera and over 2,000 species of cyanobacteria (Vincent, W.F., 2009). Cyanobacteria are morphologically diverse, ranging from unicellular to multicellular, they can be filamentous, coccoid, trichal, some can have differential cells such as heterocyst or akinetes. These are Gram-Negative bacteria that were originally described under the Botanical and it wasn't until 1978 that scientists proposed systems to resolve the classification of cyanobacteria and place them under the bacteriological code (Walter, Juline et al. 2017). Currently, there is a formal system which is a compromise between the Bacteriological and Botanical Codes for species and is based on botanical taxonomic criteria and includes bacteriological and molecular information (Palinska, Katarzyna and Surosz, Waldemar, 2014).  Their morphological diversity provided a challenge for scientists in terms of classification, but their biochemical and physiological properties allowed them to live almost anywhere such as in extreme environments such as hypersaline lakes and in calderas on active volcanoes. 
+ Since 2009, there are approximately 150 genera and over 2,000 species of cyanobacteria (Vincent, W.F., 2009). Cyanobacteria are morphologically diverse, ranging from unicellular to multicellular. They can be filamentous, coccoid, trichal, and some can have differential cells such as heterocysts or akinetes. These are Gram-Negative bacteria originally described under the Botanical, and it wasn't until 1978 that scientists proposed systems to resolve the classification of cyanobacteria and place them under the bacteriological code (Walter, Juline et al. 2017). Currently, there is a formal system that is a compromise between the Bacteriological and Botanical Codes for species and is based on botanical taxonomic criteria and includes bacteriological and molecular information (Palinska, Katarzyna and Surosz, Waldemar, 2014).  Their morphological diversity provided a challenge for scientists regarding classification. Still, their biochemical and physiological properties allowed them to live almost anywhere in extreme environments such as hypersaline lakes and calderas on active volcanoes. 
 
 \
 
@@ -98,51 +100,45 @@ After extracting the DNA, Illumina and MinION sequencing was done in the Advance
 # 16s
 
 ```{r}
-#| label: fig.3:16s rRNA gene
-#| fig-cap: "Phylogenetic tree based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| label: fig.3: Phylogenetic tree based on the 16S rRNA gene.
+#| fig-cap: "Maximum-likelihood tree based on the 16S gene sequences of all available Fischerella species. Bootstrap values after 1,000 replicates are expressed as percentages.Gleobacter violaceus PCC 7421 was used as an outgroup. The scale bar indicates the fraction of nucleotide substitutions per site."
 #|echo: FALSE
-knitr::include_graphics("Images/16s_tree.gif")
+ knitr::include_graphics("Images/16S_Tree.png")
 
 ```
 
 ```{r}
-#| label: fig.4:16s rRNA gene.
-#| fig-cap: "Percent Identity based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| label: fig.4: Patrisitic distances for the 16S rRNA gene.
+#| fig-cap: "The sume of the branch lengths for the 16S gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #|echo: FALSE
-resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_16s.rds")
-knitr::kable(resulttable, digits=8)
+ knitr::include_graphics("Images/16S_Matrix.png")
 ```
 
 # rpoB
 
 ```{r}
-#| label: fig.5:rpoB
-#| fig-cap: "Phylogenetic tree based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| label: fig.5: Phylogenetic tree based on the rpoB gene.
+#| fig-cap: "Maximum-likelihood tree based on the rpoB gene sequences of all available Fischerella species. Bootstrap values after 1,000 replicates are expressed as percentages.Gleobacter violaceus PCC 7421 was used as an outgroup. The scale bar indicates the fraction of nucleotide substitutions per site."
 #|echo: FALSE
-knitr::include_graphics("Images/rpoB_tree.gif")
+knitr::include_graphics("Images/rpoB_Tree.png")
 
 ```
 
-| Col1          | Col2  | Col3   | Col4   | Col5   | Col6   | Col7   | Col8   | Col9   |
-|---------------|-------|--------|--------|--------|--------|--------|--------|--------|
-| Gleobacter. V | 100.0 | 71.68  | 70.27  | 70.64  | 70.58  | 70.61  | 69.63  | 70.12  |
-| F.pepsitadii  | 71.68 | 100.00 | 88.75  | 89.59  | 88.75  | 88.66  | 88.27  | 88.75  |
-| JS2           | 70.27 | 88.75  | 100.00 | 95.34  | 94.77  | 94.80  | 90.37  | 90.31  |
-| F.muscicola   | 70.64 | 89.59  | 95.34  | 100.00 | 96.33  | 96.21  | 90.91  | 91.25  |
-| F.major       | 70.58 | 88.75  | 94.77  | 96.33  | 100.00 | 99.25  | 90.28  | 90.40  |
-| F.thermalis   | 70.61 | 88.66  | 94.80  | 96.21  | 99.25  | 100.00 | 90.07  | 90.37  |
-| F.welwii      | 69.63 | 88.27  | 90.37  | 90.91  | 90.28  | 90.07  | 100.00 | 94.52  |
-| F.halapii     | 70.12 | 88.75  | 90.31  | 91.25  | 90.40  | 90.37  | 94.52  | 100.00 |
+```{r}
+#| label: fig.6:rpoB
+#| fig-cap: "Phylogenetic tree based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| echo: FALSE
+knitr::include_graphics("Images/rpoB_Matrix.png")
 
-: Table.1: Clustal2.1 Percent Identity Matrix for rpoB
+```
 
 # rpoC
 
 ```{r}
-#| label: fig.6:rpoC
-#| fig-cap: "Phylogenetic tree based on the rpoC gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| label: fig.7: Phylogenetic tree based on the rpoC gene.
+#| fig-cap: "Maximum-likelihood tree based on the rpoC gene sequences of all available Fischerella species. Bootstrap values after 1,000 replicates are expressed as percentages.Gleobacter violaceus PCC 7421 was used as an outgroup. The scale bar indicates the fraction of nucleotide substitutions per site."
 #| echo: FALSE
-knitr::include_graphics("Images/rpoC_tree.gif")
+knitr::include_graphics("Images/rpoC_Tree.png")
 
 ```
 
@@ -150,78 +146,115 @@ knitr::include_graphics("Images/rpoC_tree.gif")
 #| label: fig.7:rpoC 
 #| fig-cap: "Percent Identity based on the rpo gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #|echo: FALSE
-resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_rpoC.rds")
-knitr::kable(resulttable, digits=8)
+knitr::include_graphics("Images/rpoC_Matrix.png")
 ```
 
 # rpoC2
 
 ```{r}
-#| label: fig.8:rpoC2
-#| fig-cap: "Phylogenetic tree based on the rpoC2 gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| label: fig.8: Phylogenetic tree based on the rpoC2 gene.
+#| fig-cap: "Maximum-likelihood tree based on the rpoC2 gene sequences of all available Fischerella species. Bootstrap values after 1,000 replicates are expressed as percentages.Gleobacter violaceus PCC 7421 was used as an outgroup. The scale bar indicates the fraction of nucleotide substitutions per site."
 #| echo: FALSE
-knitr::include_graphics("Images/rpoC2_tree.gif")
+knitr::include_graphics("Images/rpoC2_Tree.png")
 ```
 
 ```{r}
 #| label: fig.9:rpoC2 
 #| fig-cap: "Percent Identity based on the rpoC2 gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #|echo: FALSE
-resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_rpoC2.rds")
-knitr::kable(resulttable, digits=8)
+knitr::include_graphics("Images/rpoC2_Matrix.png")
+```
+
+# rpo Genes concatenated
+
+```{r}
+#| label: fig.10: Phylogenetic tree based on the rpoB, rpoC, and rpoC2 genes.
+#| fig-cap: "Maximum-likelihood tree based on the rpo gene sequences of all available Fischerella species. Bootstrap values after 1,000 replicates are expressed as percentages.Gleobacter violaceus PCC 7421 was used as an outgroup. The scale bar indicates the fraction of nucleotide substitutions per site."
+#|echo: FALSE
+knitr::include_graphics("Images/rpo_Gene_Tree.png")
+```
+
+```{r}
+#| label: fig.11:rpo genes
+#| fig-cap: "Percent Identity based on the rpoC2 gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#|echo: FALSE
+knitr::include_graphics("Images/rpo_Gene_Matrix.png")
 ```
 
 # cbbL
 
 ```{r}
-#| label: fig.10:cbbL
-#| fig-cap: "Phylogenetic tree based on the cbbL gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| label: fig.12: Phylogenetic tree based on the cbbL gene.
+#| fig-cap: "Maximum-likelihood tree based on the cbbL gene sequences of all available Fischerella species. Bootstrap values after 1,000 replicates are expressed as percentages.Gleobacter violaceus PCC 7421 was used as an outgroup. The scale bar indicates the fraction of nucleotide substitutions per site."
 #| echo: FALSE
-knitr::include_graphics("Images/cbbL_tree.gif")
+knitr::include_graphics("Images/cbbL_Tree.png")
 ```
 
 ```{r}
 #| label: fig.11:cbbL
 #| fig-cap: "Percent Identity based on the cbbL gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #|echo: FALSE
-resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_cbbL.rds")
-knitr::kable(resulttable, digits=8)
-
+knitr::include_graphics("Images/cbbL_Matrix.png")
 ```
 
 # cbbS
 
 ```{r}
-#| label: fig.12:cbbS
-#| fig-cap: "Phylogenetic tree based on the cbbL gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| label: fig.14: Phylogenetic tree based on the cbbS gene.
+#| fig-cap: "Maximum-likelihood tree based on the cbbS gene sequences of all available Fischerella species. Bootstrap values after 1,000 replicates are expressed as percentages.Gleobacter violaceus PCC 7421 was used as an outgroup. The scale bar indicates the fraction of nucleotide substitutions per site."
 #| echo: FALSE
-knitr::include_graphics("Images/cbbS_tree.gif")
+knitr::include_graphics("Images/cbbS_Tree.png")
 ```
 
 ```{r}
 #| label: fig.13:cbbS
 #| fig-cap: "Percent Identity based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #|echo: FALSE
-resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_cbbS.rds")
-knitr::kable(resulttable, digits=8)
+knitr::include_graphics("Images/cbbS_Matrix.png")
 ```
 
 # All genes combined
 
 ```{r}
-#| label: fig.14:All genes aligned and combined together
-#| fig-cap: "Phylogenetic tree based on the cbbS, cbbL, rpoB, rpoC, and rpoC2 genes for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#| label: fig.16: Phylogenetic tree based on the cbbL and cbbS genes.
+#| fig-cap: "Maximum-likelihood tree based on the cbbLand cbbS gene sequences of all available Fischerella species. Bootstrap values after 1,000 replicates are expressed as percentages.Gleobacter violaceus PCC 7421 was used as an outgroup. The scale bar indicates the fraction of nucleotide substitutions per site."
+#|echo: FALSE
+knitr::include_graphics("Images/cbb_Tree.png")
+```
+
+```{r}
+#| label: fig.13:cbb Genes
+#| fig-cap: "Percent Identity based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
+#|echo: FALSE
+knitr::include_graphics("Images/cbb_Matrix.png")
+```
+
+# All genes combined
+
+```{r}
+#| label: fig.18: Phylogenetic tree based on the 16S rRNA, rpoB, rpoC, rpoC2, cbbL,and cbbS genes.
+#| fig-cap: "Maximum-likelihood tree based on the 16S rRNA, rpoB, rpoC, rpoC2, cbbL,and cbbS gene sequences of all available Fischerella species. Bootstrap values after 1,000 replicates are expressed as percentages.Gleobacter violaceus PCC 7421 was used as an outgroup. The scale bar indicates the fraction of nucleotide substitutions per site."
 #| echo: FALSE
-knitr::include_graphics("Images/All_genes_tree.gif")
+knitr::include_graphics("Images/All_Genes_Tree.png")
 
 ```
 
 ```{r}
-#| label: fig.15:All genes percent identity.
+#| label: fig.19:All genes percent identity.
 #| fig-cap: "Percent Identity based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus."
 #|echo: FALSE
-resulttable=readRDS("../../Data/Processed_Data/Percent_Identity_All_genes.rds")
-knitr::kable(resulttable, digits=8)
+knitr::include_graphics("Images/All_Genes_Matrix.png")
+```
+
+# Products of JS2
+
+```{r}
+#| label: tbl-Products of JS2
+#| tbl-cap: "List of products produced based on the genes present in JS2."
+#| echo: FALSE
+options(knitr.kable.NA = "")
+resulttable=readRDS("../../Data/Processed_Data/JS2Products.rds")
+knitr::kable(resulttable, digits=1)
 ```
 
 ## Further analyses
@@ -234,7 +267,7 @@ The individual tree show different sister groups between each other and unfortun
 
 ## Summary and Interpretation
 
-For this project, the cleaned data was taken and analyzed using Rstudio to make graphs and plots to help visualize the data. Three questions were posed at the beginning, 1. Is there a difference between the sex of penguins, 2. There were toxic and inhibitory genes based on the genome annotations for JS2 and 3. Additional testing will need to be done to determine if these genes are being expressed at the time of extraction.
+For this project, the cleaned data was taken and analyzed using Rstudio to make graphs and plots to help visualize the data. Three questions were posed at the beginning, 1. , 2. There were toxic and inhibitory genes based on the genome annotations for JS2 and 3. Additional testing will need to be done to determine if these genes are being expressed at the time of extraction.
 
 ## Strengths and Limitations
 
@@ -247,5 +280,3 @@ To summarize, we found that there is a difference between phylogentic genetic tr
 {{< pagebreak >}}
 
 # References
-
-------------------------------------------------------------------------

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Chiyoko Onouye">
-<meta name="dcterms.date" content="2025-10-23">
+<meta name="dcterms.date" content="2025-05-23">
 
 <title>Manuscript for Cyanobacteria: A novel Species</title>
 <style>
@@ -128,7 +128,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 23, 2025</p>
+      <p class="date">May 23, 2025</p>
     </div>
   </div>
   
@@ -138,7 +138,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<p>format: docx: toc: false number-sections: true highlight-style: github editor: markdown: wrap: 72 —</p>
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
 <p><em>Cyanobacteria are a diverse group of Gram-negative oxygen-evolving photoautotrophic prokaryotes which play an important role in biological nitrogen fixation. These prokaryotes produce two kinds of metabolites: primary metabolites which are essential for survival and secondary metabolites which are required for auxiliary purposes–stress responses, defense mechanisms, metal carrying, and signaling. These secondary metabolites can include compounds that act as hormones, antibiotics, allelochemicals and toxins which is important because antibiotic resistance in bacteria and fungi is becoming a problem due to resistant pathogenic bacteria. Both species of cyanobacteria used in this experiment belong to a Genera with known toxin, antibiotic, and/or fungi producing species. Thus we aim to expand upon this work by investigating these newly identified species and their production of secondary metabolites. Specifically, we aim to 1) identify both novel cyanobacteria by doing whole genome sequencing and creating phylogenetic trees based on known conserved regions as well as 16s phylogenetic trees, 2) investigate secondary metabolites by annotating the genome sequenced, 3) test the reactivity of the antimicrobial and/or antifungal compounds produced by the cyanobacteria against Gram-Positive bacteria, Gram-Negative bacteria, and a fungal species, and to evaluate the potential toxicity of both species using an Artemia salina bioassay.</em></p>
@@ -224,11 +223,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1>16s</h1>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/16s_tree.gif"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a> knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/16S_Tree.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Images/16s_tree.gif" class="img-fluid figure-img"></p>
+<p><img src="Images/16S_Tree.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Phylogenetic tree based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
 </figure>
 </div>
@@ -236,58 +235,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>resulttable<span class="ot">=</span><span class="fu">readRDS</span>(<span class="st">"../../Data/Processed_Data/Percent_Identity_16s.rds"</span>)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(resulttable, <span class="at">digits=</span><span class="dv">8</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a> knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/16S_Matrix.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<table class="table table-sm table-striped">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">X.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"># Percent Identity Matrix - created by Clustal2.1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1: Gleobacter.v 100.00 86.56 86.84 86.44 86.37 86.57 86.57 86.37</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2: F.welwii 86.56 100.00 97.44 94.75 94.86 94.34 94.68 94.55</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">3: F.halapii 86.84 97.44 100.00 93.75 94.19 94.28 94.56 94.62</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">4: F.pepsitadii 86.44 94.75 93.75 100.00 94.86 94.62 95.02 94.96</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">5: JS2 86.37 94.86 94.19 94.86 100.00 97.77 97.03 97.37</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">6: F.muscicola 86.57 94.34 94.28 94.62 97.77 100.00 97.31 97.65</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">7: F.thermalis 86.57 94.68 94.56 95.02 97.03 97.31 100.00 99.07</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">8: F.major 86.37 94.55 94.62 94.96 97.37 97.65 99.07 100.00</td>
-</tr>
-</tbody>
-</table>
-<p>Percent Identity based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Images/16S_Matrix.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Percent Identity based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -295,133 +250,26 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1>rpoB</h1>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/rpoB_tree.gif"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/rpoB_Tree.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Images/rpoB_tree.gif" class="img-fluid figure-img"></p>
+<p><img src="Images/rpoB_Tree.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Phylogenetic tree based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
-<table class="table">
-<caption>Table.1: Clustal2.1 Percent Identity Matrix for rpoB</caption>
-<colgroup>
-<col style="width: 19%">
-<col style="width: 8%">
-<col style="width: 10%">
-<col style="width: 10%">
-<col style="width: 10%">
-<col style="width: 10%">
-<col style="width: 10%">
-<col style="width: 10%">
-<col style="width: 10%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Col1</th>
-<th>Col2</th>
-<th>Col3</th>
-<th>Col4</th>
-<th>Col5</th>
-<th>Col6</th>
-<th>Col7</th>
-<th>Col8</th>
-<th>Col9</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Gleobacter. V</td>
-<td>100.0</td>
-<td>71.68</td>
-<td>70.27</td>
-<td>70.64</td>
-<td>70.58</td>
-<td>70.61</td>
-<td>69.63</td>
-<td>70.12</td>
-</tr>
-<tr class="even">
-<td>F.pepsitadii</td>
-<td>71.68</td>
-<td>100.00</td>
-<td>88.75</td>
-<td>89.59</td>
-<td>88.75</td>
-<td>88.66</td>
-<td>88.27</td>
-<td>88.75</td>
-</tr>
-<tr class="odd">
-<td>JS2</td>
-<td>70.27</td>
-<td>88.75</td>
-<td>100.00</td>
-<td>95.34</td>
-<td>94.77</td>
-<td>94.80</td>
-<td>90.37</td>
-<td>90.31</td>
-</tr>
-<tr class="even">
-<td>F.muscicola</td>
-<td>70.64</td>
-<td>89.59</td>
-<td>95.34</td>
-<td>100.00</td>
-<td>96.33</td>
-<td>96.21</td>
-<td>90.91</td>
-<td>91.25</td>
-</tr>
-<tr class="odd">
-<td>F.major</td>
-<td>70.58</td>
-<td>88.75</td>
-<td>94.77</td>
-<td>96.33</td>
-<td>100.00</td>
-<td>99.25</td>
-<td>90.28</td>
-<td>90.40</td>
-</tr>
-<tr class="even">
-<td>F.thermalis</td>
-<td>70.61</td>
-<td>88.66</td>
-<td>94.80</td>
-<td>96.21</td>
-<td>99.25</td>
-<td>100.00</td>
-<td>90.07</td>
-<td>90.37</td>
-</tr>
-<tr class="odd">
-<td>F.welwii</td>
-<td>69.63</td>
-<td>88.27</td>
-<td>90.37</td>
-<td>90.91</td>
-<td>90.28</td>
-<td>90.07</td>
-<td>100.00</td>
-<td>94.52</td>
-</tr>
-<tr class="even">
-<td>F.halapii</td>
-<td>70.12</td>
-<td>88.75</td>
-<td>90.31</td>
-<td>91.25</td>
-<td>90.40</td>
-<td>90.37</td>
-<td>94.52</td>
-<td>100.00</td>
-</tr>
-</tbody>
-</table>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Images/rpoB_Matrix.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Phylogenetic tree based on the rpoB gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="rpoc" class="level1">
 <h1>rpoC</h1>
@@ -429,7 +277,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Images/rpoC_tree.gif" class="img-fluid figure-img"></p>
+<p><img src="Images/rpoC_Tree.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Phylogenetic tree based on the rpoC gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
 </figure>
 </div>
@@ -437,58 +285,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>resulttable<span class="ot">=</span><span class="fu">readRDS</span>(<span class="st">"../../Data/Processed_Data/Percent_Identity_rpoC.rds"</span>)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(resulttable, <span class="at">digits=</span><span class="dv">8</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/rpoC_Matrix.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<table class="table table-sm table-striped">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">X.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"># Percent Identity Matrix - created by Clustal2.1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1: Gleobacter.V 100.00 69.13 68.19 69.24 68.96 68.96 67.59 66.65</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2: F.pepsitadii 69.13 100.00 87.97 88.34 87.65 87.59 86.85 87.01</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">3: JS2 68.19 87.97 100.00 96.01 94.78 94.83 90.89 90.31</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">4: F.muscicola 69.24 88.34 96.01 100.00 96.49 96.65 91.43 90.68</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">5: F.major 68.96 87.65 94.78 96.49 100.00 99.20 90.79 90.26</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">6: F.thermalis 68.96 87.59 94.83 96.65 99.20 100.00 90.68 90.15</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">7: F.Welwii 67.59 86.85 90.89 91.43 90.79 90.68 100.00 94.14</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">8: F.halapii 66.65 87.01 90.31 90.68 90.26 90.15 94.14 100.00</td>
-</tr>
-</tbody>
-</table>
-<p>Percent Identity based on the rpo gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Images/rpoC_Matrix.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Percent Identity based on the rpo gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -498,7 +302,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Images/rpoC2_tree.gif" class="img-fluid figure-img"></p>
+<p><img src="Images/rpoC2_Tree.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Phylogenetic tree based on the rpoC2 gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
 </figure>
 </div>
@@ -506,58 +310,36 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>resulttable<span class="ot">=</span><span class="fu">readRDS</span>(<span class="st">"../../Data/Processed_Data/Percent_Identity_rpoC2.rds"</span>)</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(resulttable, <span class="at">digits=</span><span class="dv">8</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/rpoC2_Matrix.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<table class="table table-sm table-striped">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">X.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"># Percent Identity Matrix - created by Clustal2.1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1: Gleobacter.V 100.00 69.13 68.19 69.24 68.96 68.96 67.59 66.65</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2: F.pepsitadii 69.13 100.00 87.97 88.34 87.65 87.59 86.85 87.01</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">3: JS2 68.19 87.97 100.00 96.01 94.78 94.83 90.89 90.31</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">4: F.muscicola 69.24 88.34 96.01 100.00 96.49 96.65 91.43 90.68</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">5: F.major 68.96 87.65 94.78 96.49 100.00 99.20 90.79 90.26</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">6: F.thermalis 68.96 87.59 94.83 96.65 99.20 100.00 90.68 90.15</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">7: F.Welwii 67.59 86.85 90.89 91.43 90.79 90.68 100.00 94.14</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">8: F.halapii 66.65 87.01 90.31 90.68 90.26 90.15 94.14 100.00</td>
-</tr>
-</tbody>
-</table>
-<p>Percent Identity based on the rpoC2 gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Images/rpoC2_Matrix.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Percent Identity based on the rpoC2 gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="rpo-genes-concatenated" class="level1">
+<h1>rpo Genes concatenated</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/rpo_Gene_Tree.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Images/rpo_Gene_Tree.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/rpo_Gene_Matrix.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Images/rpo_Gene_Matrix.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Percent Identity based on the rpoC2 gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -567,66 +349,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Images/cbbL_tree.gif" class="img-fluid figure-img"></p>
+<p><img src="Images/cbbL_Tree.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Phylogenetic tree based on the cbbL gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>resulttable<span class="ot">=</span><span class="fu">readRDS</span>(<span class="st">"../../Data/Processed_Data/Percent_Identity_cbbL.rds"</span>)</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(resulttable, <span class="at">digits=</span><span class="dv">8</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/cbbL_Matrix.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<table class="table table-sm table-striped">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">X.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"># Percent Identity Matrix - created by Clustal2.1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1: Gleobacter.v 100.00 73.47 73.68 76.49 75.16 75.58 75.51 75.51</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2: F.welwii 73.47 100.00 97.20 90.36 92.31 91.47 91.89 91.96</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">3: F.halapii 73.68 97.20 100.00 89.38 92.31 90.92 91.61 91.82</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">4: F.pepsitadii 76.49 90.36 89.38 100.00 92.52 92.38 92.38 92.38</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">5: JS2 75.16 92.31 92.31 92.52 100.00 95.11 95.74 96.16</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">6: F.major 75.58 91.47 90.92 92.38 95.11 100.00 96.86 97.69</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">7: F.muscicola 75.51 91.89 91.61 92.38 95.74 96.86 100.00 97.97</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">8: F.thermalis 75.51 91.96 91.82 92.38 96.16 97.69 97.97 100.00</td>
-</tr>
-</tbody>
-</table>
-<p>Percent Identity based on the cbbL gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Images/cbbL_Matrix.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Percent Identity based on the cbbL gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -636,141 +374,74 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Images/cbbS_tree.gif" class="img-fluid figure-img"></p>
+<p><img src="Images/cbbS_Tree.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Phylogenetic tree based on the cbbL gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>resulttable<span class="ot">=</span><span class="fu">readRDS</span>(<span class="st">"../../Data/Processed_Data/Percent_Identity_cbbS.rds"</span>)</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(resulttable, <span class="at">digits=</span><span class="dv">8</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/cbbS_Matrix.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<table class="table table-sm table-striped">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">X.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"># Percent Identity Matrix - created by Clustal2.1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1: Gleobacter.v 100.00 66.98 65.73 66.67 66.98 65.73 65.73 65.11</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2: F.pepsitadii 66.98 100.00 90.30 92.42 90.30 92.12 90.61 90.00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">3: F.major 65.73 90.30 100.00 96.67 94.85 92.73 91.21 91.82</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">4: F.muscicola 66.67 92.42 96.67 100.00 97.58 93.03 93.33 93.33</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">5: F.thermalis 66.98 90.30 94.85 97.58 100.00 92.12 93.03 92.73</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">6: JS2 65.73 92.12 92.73 93.03 92.12 100.00 93.75 93.45</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">7: F.welwii 65.73 90.61 91.21 93.33 93.03 93.75 100.00 96.73</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">8: F.halapii 65.11 90.00 91.82 93.33 92.73 93.45 96.73 100.00</td>
-</tr>
-</tbody>
-</table>
-<p>Percent Identity based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Images/cbbS_Matrix.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Percent Identity based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
 <section id="all-genes-combined" class="level1">
 <h1>All genes combined</h1>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/cbb_Tree.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Images/All_genes_tree.gif" class="img-fluid figure-img"></p>
+<p><img src="Images/cbb_Tree.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Percent Identity based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/cbb_Matrix.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Images/cbb_Matrix.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Percent Identity based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="all-genes-combined-1" class="level1">
+<h1>All genes combined</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Images/All_Genes_Tree.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Phylogenetic tree based on the cbbS, cbbL, rpoB, rpoC, and rpoC2 genes for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>resulttable<span class="ot">=</span><span class="fu">readRDS</span>(<span class="st">"../../Data/Processed_Data/Percent_Identity_All_genes.rds"</span>)</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(resulttable, <span class="at">digits=</span><span class="dv">8</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: FALSE</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Images/All_Genes_Matrix.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<table class="table table-sm table-striped">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">X.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"># Percent Identity Matrix - created by Clustal2.1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">#</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1: Gleobacter.v 100.00 50.17 48.92 48.92 53.85 53.29 54.61 54.33 54.54 54.61</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2: Gleobacter.V 50.17 100.00 49.28 49.28 60.86 59.88 60.44 60.78 60.91 60.60</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">3: F.welwii 48.92 49.28 100.00 100.00 56.99 57.67 58.43 58.71 58.60 58.98</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">4: F.Welwii 48.92 49.28 100.00 100.00 56.99 57.67 58.43 58.71 58.60 58.98</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">5: F.pepsitadii 53.85 60.86 56.99 56.99 100.00 85.44 86.09 86.06 85.89 86.38</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">6: F.halapii 53.29 59.88 57.67 57.67 85.44 100.00 88.24 88.78 88.73 88.98</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">7: JS2 54.61 60.44 58.43 58.43 86.09 88.24 100.00 94.30 94.07 95.09</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">8: F.major 54.33 60.78 58.71 58.71 86.06 88.78 94.30 100.00 99.11 96.59</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">9: F.thermalis 54.54 60.91 58.60 58.60 85.89 88.73 94.07 99.11 100.00 96.59</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">10: F.muscicola 54.61 60.60 58.98 58.98 86.38 88.98 95.09 96.59 96.59 100.00</td>
-</tr>
-</tbody>
-</table>
-<p>Percent Identity based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Images/All_Genes_Matrix.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Percent Identity based on the cbbS gene for all 7 species of Ficherella sp. and Gleobactor vialoceus.</figcaption><p></p>
+</figure>
+</div>
 </div>
 </div>
 <section id="further-analyses" class="level2">
@@ -783,7 +454,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1>Discussion</h1>
 <section id="summary-and-interpretation" class="level2">
 <h2 class="anchored" data-anchor-id="summary-and-interpretation">Summary and Interpretation</h2>
-<p>For this project, the cleaned data was taken and analyzed using Rstudio to make graphs and plots to help visualize the data. Three questions were posed at the beginning, 1. Is there a difference between the sex of penguins, 2. There were toxic and inhibitory genes based on the genome annotations for JS2 and 3. Additional testing will need to be done to determine if these genes are being expressed at the time of extraction.</p>
+<p>For this project, the cleaned data was taken and analyzed using Rstudio to make graphs and plots to help visualize the data. Three questions were posed at the beginning, 1. , 2. There were toxic and inhibitory genes based on the genome annotations for JS2 and 3. Additional testing will need to be done to determine if these genes are being expressed at the time of extraction.</p>
 </section>
 <section id="strengths-and-limitations" class="level2">
 <h2 class="anchored" data-anchor-id="strengths-and-limitations">Strengths and Limitations</h2>

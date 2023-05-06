@@ -95,7 +95,7 @@ write.csv(mdat, file = save_data_location_csv, row.names=FALSE, quote=FALSE)
 
 
 ##Combine all genes into one dataframe so we can compare all genes within this Genus
-F2 <- qpcR:::cbind.na(JS2gene,F.halapii) #Create a dataframe with JS2 & F.halapii genes, has 2386 entries
+F2 <- qpcR:::cbind.na(JS2,F.halapii) #Create a dataframe with JS2 & F.halapii genes, has 2386 entries
 F3 <- qpcR:::cbind.na(F2,F.major) #Add F.major to the dataframe
 F4 <- qpcR:::cbind.na(F3,F.muscicola) #Add F.muscicola to the dataframe
 F5 <- qpcR:::cbind.na(F4 ,F.pepsitadii) #Add F.pepsitadii to the dataframe

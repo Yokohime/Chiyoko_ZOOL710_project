@@ -7,7 +7,7 @@
 
 ## ---- packages --------
 ##Required packages...
-update.packages(ask=FALSE)
+
 require(dplyr)
 require(qpcR)
 require(tidyverse)
@@ -15,25 +15,20 @@ require(tidyverse)
 ## ---- loaddata --------
 
 #path to data
-data_location <- "../../Data/Processed_Data/AllSpeciesAllGenes.csv"
+data_location <- "../../Data/Processed_Data/JS2_Products.csv"
 data_path <- "../../Data/Processed_Data"
 
 #load data
 
 dat <- read.csv(data_location, check.names=FALSE)
 
+attributes(dat)
+Unique <- unique(dat) #All the unique genes found between all Species of Fischerella
+Duplicate <- anyDuplicated(Genes) #Trying to identify if there is any shared genes between all species
 
-Genes <- as.data.frame(dat)
-dim(Genes)
-attributes(Genes
-
-
-
-G2 <- as_tibble(Genes)  #Make the dataframe as a tibble
-G2 %>% duplicated
-unique(Genes) #All the unique genes found between all Species of Fischerella
-anyDuplicated(Genes) #Trying to identify if there is any shared genes between all species
-
-
+options(knitr.kable.NA = "")
+knitr::kable(Unique, digits=1)
+save_data_location <- "../../Data/Processed_Data/JS2Products.rds"
+saveRDS(Unique, file = save_data_location)
 
 
